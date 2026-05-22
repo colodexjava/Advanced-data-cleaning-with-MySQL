@@ -1,0 +1,1001 @@
+Patient_ID,Name,Age,Gender,City,BMI,heart_rate,Cholesterol_Level,Diabetic,Smoker,Medications,follow_up,Diagnosis_Code,Notes,Has_Disease,systolic_bp,diastolic_bp,last_visit_date
+"ID- 1","Smith Alice",25,Female,Boston,22,83,Normal,Unknown,Yes,None,30,A00,"Patient feeling fine ðŸ™‚",0,120,80,2021-04-15
+"ID- 2","Smith Alice",5,Female,"New York",26,0,normal,No,No,Unknown,0,unknown,"BP high, needs recheck",Unknown,NULL,NULL,2021-07-10
+"ID- 3","John Doe",5,Female,"New York",22,50,Normal,No,Former,"aspirin,metformin",30,B20,,Unknown,120,80,2021-04-06
+"ID- 4","Michael Brown",80,Female,"New York",33,0,High,Yes,EX-smoker,Unknown,30,Unknown,"Follow up soon",Unknown,NULL,NULL,2024-11-13
+"ID- 5","Jane Doe",25,Female,"Los Angeles",30,NULL,normal,No,No,None,0,I10,"Patient feeling fine ðŸ™‚",1,120,80,2025-09-27
+"ID- 6","Michael Brown",5,Female,Unknown,22,63,normal,No,EX-smoker,None,30,E11.9,n/a,0,120,80,2025-05-22
+"ID- 7","Lee Sara",98,Male,Chicago,0,108,normal,Unknown,No,"aspirin,metformin",0,E11.9,"Follow up soon",Unknown,120,80,2024-03-09
+"ID- 8","Smith Alice",25,Female,"New York",23,85,High,Yes,Unknown,None,0,I10,"BP high, needs recheck",Unknown,120,80,2022-05-22
+"ID- 9","John Doe",25,Female,Boston,0,50,high,No,Former,"Aspirin; Metformin",30,unknown,,0,120,80,2020-03-02
+"ID- 10","Michael Brown",5,Female,Chicago,22,0,Unknown,No,Former,None,30,A00,"BP high, needs recheck",1,NULL,NULL,2025-03-30
+"ID- 11","John Doe",5,Female,Unknown,22,80,normal,No,Unknown,None,30,unknown,n/a,Unknown,120,80,2023-05-27
+"ID- 12","Lee Sara",5,Male,"New York",23,103,High,Unknown,Former,"aspirin,metformin",14,unknown,n/a,Unknown,120,80,2022-04-15
+"ID- 13","Lee Sara",5,Male,Boston,0,56,Unknown,Yes,EX-smoker,None,0,E11.9,"Follow up soon",1,115,61,2021-05-27
+"ID- 15","Lee Sara",5,Male,"New York",22,50,High,No,EX-smoker,Unknown,0,I10,n/a,Unknown,120,80,2022-09-04
+"ID- 16","John Doe",6,Female,"Los Angeles",23,80,High,No,Unknown,"Aspirin; Metformin",0,I10,"BP high, needs recheck",1,120,80,2024-01-21
+"ID- 18","Smith Alice",25,Female,"New York",16,80,Normal,Yes,EX-smoker,"Aspirin; Metformin",30,E11.9,"BP high, needs recheck",0,120,80,2020-05-12
+"ID- 20","John Doe",25,Female,"New York",23,NULL,High,Yes,Unknown,"aspirin,metformin",30,B20,"BP high, needs recheck",Unknown,120,80,2021-01-06
+"ID- 21","Smith Alice",25,Female,"Los Angeles",23,NULL,normal,Unknown,No,Unknown,0,Unknown,,Unknown,120,80,2020-11-16
+"ID- 24","John Doe",18,Female,"New York",23,72,High,Unknown,EX-smoker,"Aspirin; Metformin",30,unknown,"BP high, needs recheck",0,91,89,2023-08-13
+"ID- 25","Lee Sara",25,Male,Unknown,28,103,high,Yes,No,"Lisinopril / Metformin",30,B20,"Patient feeling fine ðŸ™‚",1,139,96,2024-04-22
+"ID- 27","Jane Doe",25,Female,"New York",24,90,Normal,Unknown,Unknown,Unknown,30,Unknown,"Patient feeling fine ðŸ™‚",1,124,81,2022-10-18
+"ID- 28","John Doe",59,Female,Chicago,23,NULL,normal,No,Former,Unknown,0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2021-07-15
+"ID- 31","Lee Sara",46,Male,Unknown,22,50,Normal,Yes,No,"Aspirin; Metformin",14,Unknown,n/a,0,120,80,2023-08-12
+"ID- 32","Jane Doe",5,Female,Unknown,21,50,Unknown,Unknown,Unknown,Unknown,14,I10,"Patient feeling fine ðŸ™‚",Unknown,110,100,2024-09-10
+"ID- 34","Smith Alice",5,Female,"Los Angeles",0,80,normal,Yes,Former,None,30,E11.9,n/a,Unknown,120,80,2020-06-26
+"ID- 37","John Doe",52,Female,"New York",22,80,high,Yes,Former,Unknown,0,unknown,"Follow up soon",1,120,80,2021-07-13
+"ID- 38","Michael Brown",5,Female,"New York",16,0,Normal,No,Former,"Lisinopril / Metformin",14,B20,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2020-10-09
+"ID- 39","Lee Sara",64,Male,"New York",0,50,normal,No,EX-smoker,"Lisinopril / Metformin",30,unknown,n/a,1,120,80,2020-01-04
+"ID- 40","Jane Doe",25,Female,"New York",0,NULL,normal,Yes,Unknown,"aspirin,metformin",14,Unknown,"BP high, needs recheck",0,120,80,2021-04-16
+"ID- 43","Lee Sara",25,Male,Boston,22,0,high,Yes,No,"Aspirin; Metformin",0,unknown,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2025-06-06
+"ID- 46","Jane Doe",5,Female,"New York",23,50,high,Yes,Unknown,"aspirin,metformin",14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,130,74,2020-11-08
+"ID- 47","John Doe",25,Female,Unknown,22,80,high,No,EX-smoker,Unknown,0,Unknown,"BP high, needs recheck",0,120,80,2021-04-08
+"ID- 48","Smith Alice",5,Female,Boston,20,86,Normal,Yes,No,"aspirin,metformin",0,I10,"BP high, needs recheck",0,115,68,2024-05-31
+"ID- 49","Smith Alice",25,Female,"New York",22,80,High,Yes,Unknown,"Aspirin; Metformin",14,E11.9,"BP high, needs recheck",0,111,94,2021-02-07
+"ID- 50","Lee Sara",5,Male,Unknown,23,80,high,Yes,Unknown,Unknown,14,I10,n/a,Unknown,120,80,2024-01-06
+"ID- 51","Smith Alice",5,Female,"New York",0,120,Unknown,No,Yes,Unknown,14,unknown,"BP high, needs recheck",Unknown,120,80,2021-11-27
+"ID- 52","Lee Sara",25,Male,Boston,22,0,High,Unknown,Former,"Lisinopril / Metformin",30,I10,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2024-05-01
+"ID- 54","Lee Sara",9,Male,Unknown,22,92,Normal,Unknown,Yes,"Lisinopril / Metformin",14,A00,"Follow up soon",1,142,80,2024-09-08
+"ID- 55","John Doe",100,Female,"Los Angeles",0,114,high,No,Yes,"aspirin,metformin",14,I10,n/a,0,120,80,2023-09-03
+"ID- 56","John Doe",54,Female,"Los Angeles",23,53,Normal,No,No,"aspirin,metformin",14,E11.9,n/a,Unknown,120,80,2024-03-12
+"ID- 57","Smith Alice",25,Female,"Los Angeles",32,59,Unknown,Yes,No,None,0,A00,,Unknown,145,94,2021-09-27
+"ID- 58","Lee Sara",85,Male,"New York",17,56,normal,Yes,Yes,Unknown,0,I10,"BP high, needs recheck",1,120,80,2020-04-25
+"ID- 60","Jane Doe",5,Female,"New York",22,0,Unknown,Unknown,Unknown,"Aspirin; Metformin",14,E11.9,n/a,Unknown,NULL,NULL,2025-05-30
+"ID- 61","Smith Alice",15,Female,chicago,0,0,Unknown,No,EX-smoker,Unknown,0,I10,"Follow up soon",Unknown,NULL,NULL,2024-05-28
+"ID- 62","Smith Alice",24,Female,"Los Angeles",23,0,normal,Yes,Unknown,"Lisinopril / Metformin",14,I10,,0,NULL,NULL,2021-07-16
+"ID- 64","Lee Sara",5,Male,Chicago,0,0,high,No,Former,"Lisinopril / Metformin",14,unknown,n/a,1,NULL,NULL,2025-04-17
+"ID- 65","Smith Alice",0,Female,"Los Angeles",23,NULL,Normal,No,Unknown,"aspirin,metformin",14,B20,"Patient feeling fine ðŸ™‚",1,120,80,2020-06-14
+"ID- 66","Smith Alice",25,Female,chicago,34,80,high,Unknown,Yes,None,0,E11.9,"Patient feeling fine ðŸ™‚",1,120,80,2024-10-14
+"ID- 68","Jane Doe",21,Female,chicago,22,80,normal,Unknown,EX-smoker,"Lisinopril / Metformin",30,I10,n/a,Unknown,120,80,2023-10-08
+"ID- 69","Lee Sara",80,Male,"New York",23,NULL,high,Yes,EX-smoker,Unknown,30,A00,"Patient feeling fine ðŸ™‚",Unknown,108,93,2022-11-02
+"ID- 72","Jane Doe",25,Female,"New York",0,50,normal,Yes,Former,"Lisinopril / Metformin",30,B20,n/a,1,120,80,2020-10-07
+"ID- 73","Jane Doe",5,Female,"New York",0,112,normal,Unknown,EX-smoker,Unknown,14,I10,"Patient feeling fine ðŸ™‚",0,120,80,2024-10-19
+"ID- 74","John Doe",25,Female,"Los Angeles",22,0,Normal,Unknown,No,"Aspirin; Metformin",14,E11.9,,Unknown,NULL,NULL,2025-08-14
+"ID- 75","Jane Doe",83,Female,Boston,22,73,High,Unknown,No,None,14,E11.9,"BP high, needs recheck",Unknown,120,80,2023-04-04
+"ID- 76","Lee Sara",5,Male,"New York",0,50,Unknown,Unknown,No,"Aspirin; Metformin",30,E11.9,n/a,Unknown,120,80,2023-05-04
+"ID- 80","Jane Doe",5,Female,"Los Angeles",29,50,Unknown,Yes,Yes,"aspirin,metformin",30,B20,"Follow up soon",Unknown,146,74,2023-09-11
+"ID- 81","Michael Brown",5,Female,Chicago,22,76,Normal,Yes,No,"Lisinopril / Metformin",14,I10,"Follow up soon",0,147,97,2021-02-21
+"ID- 82","Lee Sara",45,Male,"Los Angeles",23,0,Normal,Unknown,Yes,Unknown,14,B20,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2021-06-11
+"ID- 84","Michael Brown",48,Female,Unknown,22,50,Normal,No,Unknown,None,30,E11.9,"BP high, needs recheck",Unknown,94,95,2020-06-06
+"ID- 85","Lee Sara",18,Male,"New York",21,50,normal,Unknown,Yes,"aspirin,metformin",14,A00,"BP high, needs recheck",1,120,80,2025-06-30
+"ID- 86","Smith Alice",25,Female,"New York",20,0,high,Unknown,No,"Lisinopril / Metformin",14,unknown,"Follow up soon",0,NULL,NULL,2020-07-16
+"ID- 87","John Doe",5,Female,Boston,23,0,high,Unknown,No,None,30,I10,"BP high, needs recheck",1,NULL,NULL,2023-03-19
+"ID- 88","Smith Alice",67,Female,"New York",22,120,Normal,Unknown,Yes,Unknown,30,B20,"Follow up soon",Unknown,120,80,2020-12-12
+"ID- 89","Michael Brown",48,Female,"New York",23,80,High,Unknown,Former,"Aspirin; Metformin",0,B20,,Unknown,120,80,2022-10-13
+"ID- 91","Smith Alice",25,Female,chicago,23,80,normal,Yes,EX-smoker,"Aspirin; Metformin",14,A00,"BP high, needs recheck",1,120,80,2024-01-10
+"ID- 94","John Doe",42,Female,"New York",16,NULL,Normal,No,EX-smoker,"Lisinopril / Metformin",30,unknown,"BP high, needs recheck",Unknown,96,70,2022-06-03
+"ID- 95","Smith Alice",25,Female,"New York",23,80,Unknown,Yes,EX-smoker,"Aspirin; Metformin",14,I10,,1,120,80,2025-07-07
+"ID- 96","Jane Doe",25,Female,"New York",21,50,Normal,No,Unknown,"Aspirin; Metformin",0,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-06-07
+"ID- 98","Jane Doe",25,Female,"Los Angeles",22,63,Normal,No,EX-smoker,None,14,Unknown,"BP high, needs recheck",0,120,80,2021-08-26
+"ID- 99","Michael Brown",5,Female,"New York",0,NULL,normal,Yes,EX-smoker,None,0,E11.9,"BP high, needs recheck",Unknown,120,80,2024-05-30
+"ID- 100","John Doe",99,Female,"New York",0,0,high,Unknown,Unknown,"aspirin,metformin",0,unknown,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-07-19
+"ID- 103","Jane Doe",56,Female,"New York",30,80,Unknown,No,No,"Lisinopril / Metformin",30,unknown,n/a,Unknown,120,80,2020-08-23
+"ID- 104","Michael Brown",25,Female,"New York",22,84,Unknown,Yes,Unknown,"Lisinopril / Metformin",14,B20,"BP high, needs recheck",1,120,80,2020-12-15
+"ID- 105","Lee Sara",25,Male,chicago,23,50,high,No,EX-smoker,"aspirin,metformin",14,E11.9,"Follow up soon",1,120,80,2020-01-11
+"ID- 107","Smith Alice",75,Female,Unknown,29,NULL,Unknown,Unknown,Unknown,"Lisinopril / Metformin",30,E11.9,"BP high, needs recheck",0,120,80,2020-12-06
+"ID- 112","Lee Sara",25,Male,"New York",22,51,High,Yes,Unknown,"aspirin,metformin",14,Unknown,,0,149,93,2020-06-16
+"ID- 113","Jane Doe",25,Female,chicago,22,80,Normal,No,Unknown,None,0,A00,"Follow up soon",0,133,76,2023-04-02
+"ID- 117","Smith Alice",5,Female,Boston,34,50,high,Unknown,Unknown,"Aspirin; Metformin",14,unknown,n/a,Unknown,120,80,2023-02-16
+"ID- 118","Smith Alice",25,Female,"New York",0,0,normal,Unknown,Former,"Lisinopril / Metformin",14,B20,"BP high, needs recheck",Unknown,NULL,NULL,2025-02-16
+"ID- 120","John Doe",25,Female,"Los Angeles",22,NULL,High,No,Unknown,"Aspirin; Metformin",14,unknown,"Patient feeling fine ðŸ™‚",1,120,80,2025-06-18
+"ID- 123","Lee Sara",65,Male,"New York",23,NULL,High,Unknown,No,Unknown,14,A00,n/a,Unknown,128,69,2023-09-17
+"ID- 124","John Doe",80,Female,Boston,22,NULL,high,No,Unknown,"Lisinopril / Metformin",30,B20,,1,120,80,2024-02-22
+"ID- 125","Smith Alice",5,Female,Chicago,17,0,Unknown,No,EX-smoker,None,0,A00,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2023-12-05
+"ID- 126","John Doe",5,Female,"New York",28,88,Unknown,No,No,"Aspirin; Metformin",14,unknown,,Unknown,120,80,2021-09-29
+"ID- 131","Michael Brown",5,Female,"Los Angeles",23,NULL,Unknown,Unknown,Former,"aspirin,metformin",14,Unknown,"BP high, needs recheck",Unknown,120,80,2024-08-18
+"ID- 134","Lee Sara",5,Male,chicago,23,NULL,normal,No,Unknown,"aspirin,metformin",0,B20,,1,120,80,2021-11-05
+"ID- 135","Michael Brown",5,Female,"New York",0,NULL,High,Yes,Unknown,"Lisinopril / Metformin",30,E11.9,n/a,Unknown,120,80,2020-02-07
+"ID- 136","Michael Brown",25,Female,"New York",27,0,Unknown,No,Former,"Lisinopril / Metformin",30,I10,"BP high, needs recheck",Unknown,NULL,NULL,2020-02-04
+"ID- 137","John Doe",5,Female,"New York",22,80,high,Yes,Yes,"Lisinopril / Metformin",0,unknown,,0,120,80,2022-09-04
+"ID- 140","Smith Alice",53,Female,"New York",0,80,high,No,EX-smoker,Unknown,14,B20,,Unknown,120,80,2023-10-08
+"ID- 142","Lee Sara",5,Male,"Los Angeles",28,NULL,High,Yes,Unknown,"Lisinopril / Metformin",14,A00,n/a,0,120,80,2022-01-22
+"ID- 144","Smith Alice",25,Female,"New York",22,50,normal,Yes,EX-smoker,"Aspirin; Metformin",14,E11.9,,Unknown,120,80,2020-12-12
+"ID- 146","Lee Sara",54,Male,"New York",22,NULL,high,Yes,EX-smoker,Unknown,30,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-03-05
+"ID- 147","Jane Doe",32,Female,Chicago,33,106,Normal,Yes,EX-smoker,"aspirin,metformin",14,I10,"BP high, needs recheck",Unknown,90,84,2020-03-19
+"ID- 149","Lee Sara",25,Male,"New York",23,NULL,high,Unknown,Yes,None,14,A00,n/a,1,152,83,2023-09-03
+"ID- 151","Lee Sara",25,Male,"Los Angeles",22,50,normal,Yes,Former,"aspirin,metformin",14,Unknown,"BP high, needs recheck",0,120,80,2022-08-17
+"ID- 153","Lee Sara",25,Male,"New York",22,NULL,normal,Unknown,Unknown,None,14,B20,"Patient feeling fine ðŸ™‚",1,120,80,2023-01-15
+"ID- 154","Jane Doe",5,Female,"New York",20,NULL,High,Yes,Unknown,Unknown,14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-11-23
+"ID- 156","Michael Brown",13,Female,"Los Angeles",23,0,Normal,Unknown,Unknown,Unknown,14,Unknown,,Unknown,NULL,NULL,2020-07-29
+"ID- 158","Michael Brown",57,Female,"New York",34,NULL,normal,Unknown,Yes,"Aspirin; Metformin",30,E11.9,n/a,Unknown,120,80,2020-08-07
+"ID- 159","Jane Doe",25,Female,"New York",22,59,normal,No,Yes,"aspirin,metformin",14,I10,"BP high, needs recheck",Unknown,111,99,2020-03-06
+"ID- 161","Smith Alice",25,Female,"New York",22,0,normal,Yes,No,"aspirin,metformin",14,Unknown,n/a,1,NULL,NULL,2024-09-03
+"ID- 162","Jane Doe",5,Female,"New York",0,NULL,Unknown,Unknown,No,None,14,A00,"Follow up soon",1,120,80,2021-08-26
+"ID- 164","Michael Brown",25,Female,"New York",22,108,High,Yes,EX-smoker,"aspirin,metformin",14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-05-01
+"ID- 165","Smith Alice",25,Female,"New York",0,NULL,Normal,Unknown,Unknown,"aspirin,metformin",14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,154,90,2024-06-27
+"ID- 171","Michael Brown",4,Female,"Los Angeles",16,80,normal,Yes,No,"Lisinopril / Metformin",14,E11.9,,0,120,80,2024-04-16
+"ID- 172","John Doe",93,Female,Boston,34,100,High,No,EX-smoker,"Aspirin; Metformin",30,A00,n/a,1,142,95,2022-01-07
+"ID- 173","Lee Sara",5,Male,Chicago,30,80,High,No,No,"aspirin,metformin",14,B20,"BP high, needs recheck",0,120,80,2022-05-20
+"ID- 178","John Doe",5,Female,chicago,23,50,Normal,No,Unknown,None,14,E11.9,"Follow up soon",1,120,80,2022-12-29
+"ID- 180","Jane Doe",25,Female,chicago,22,NULL,Normal,Unknown,Yes,None,0,B20,"Follow up soon",1,120,80,2025-06-14
+"ID- 181","John Doe",62,Female,"Los Angeles",22,80,Unknown,Unknown,Yes,"Aspirin; Metformin",14,Unknown,"Follow up soon",Unknown,120,80,2021-07-27
+"ID- 183","Michael Brown",62,Female,"New York",23,0,Normal,No,EX-smoker,Unknown,30,B20,,0,NULL,NULL,2020-07-03
+"ID- 184","Smith Alice",5,Female,Unknown,23,50,Unknown,Yes,Unknown,None,14,E11.9,"BP high, needs recheck",Unknown,120,80,2020-01-10
+"ID- 187","Jane Doe",5,Female,"New York",35,50,Unknown,Unknown,Unknown,None,14,B20,"BP high, needs recheck",Unknown,120,80,2024-03-26
+"ID- 188","Jane Doe",25,Female,Boston,0,0,normal,Yes,Yes,Unknown,30,B20,"Follow up soon",Unknown,NULL,NULL,2020-03-21
+"ID- 190","Smith Alice",25,Female,"Los Angeles",22,50,High,Yes,Yes,"Aspirin; Metformin",30,Unknown,,0,120,80,2020-06-30
+"ID- 191","Lee Sara",25,Male,"Los Angeles",0,0,Unknown,No,EX-smoker,"Lisinopril / Metformin",0,B20,"BP high, needs recheck",1,NULL,NULL,2025-08-16
+"ID- 192","John Doe",41,Female,"New York",0,50,Unknown,No,No,None,14,B20,n/a,Unknown,120,80,2023-06-14
+"ID- 193","Smith Alice",25,Female,"New York",0,75,Unknown,Yes,EX-smoker,"Aspirin; Metformin",14,A00,"BP high, needs recheck",1,116,68,2024-02-12
+"ID- 194","Michael Brown",14,Female,"Los Angeles",0,50,High,No,Unknown,"Lisinopril / Metformin",0,A00,"BP high, needs recheck",0,120,80,2020-03-03
+"ID- 195","Smith Alice",25,Female,Chicago,20,50,high,Yes,Former,"aspirin,metformin",30,unknown,,Unknown,120,80,2021-02-08
+"ID- 197","Jane Doe",89,Female,"New York",28,80,High,Yes,EX-smoker,None,14,B20,"Follow up soon",Unknown,120,80,2023-03-25
+"ID- 199","John Doe",5,Female,"New York",28,NULL,Unknown,Unknown,EX-smoker,"Aspirin; Metformin",14,Unknown,,Unknown,120,80,2022-10-21
+"ID- 200","John Doe",5,Female,"New York",22,50,normal,Unknown,Unknown,"Lisinopril / Metformin",14,Unknown,n/a,Unknown,120,80,2023-09-21
+"ID- 201","Lee Sara",79,Male,"New York",23,50,normal,Unknown,No,"Lisinopril / Metformin",0,Unknown,n/a,Unknown,120,80,2022-01-27
+"ID- 202","Michael Brown",25,Female,"New York",23,50,Unknown,No,No,"Aspirin; Metformin",30,Unknown,,Unknown,120,80,2021-04-16
+"ID- 203","John Doe",86,Female,"New York",19,88,High,Yes,Unknown,Unknown,14,B20,"BP high, needs recheck",Unknown,120,80,2023-10-20
+"ID- 204","Michael Brown",25,Female,"New York",19,89,Normal,Yes,EX-smoker,"Aspirin; Metformin",14,A00,"BP high, needs recheck",0,120,80,2025-05-13
+"ID- 205","Lee Sara",64,Male,"Los Angeles",22,80,Normal,No,No,"Lisinopril / Metformin",14,unknown,"Follow up soon",Unknown,97,68,2023-04-08
+"ID- 208","Michael Brown",5,Female,"New York",0,NULL,high,Unknown,Unknown,None,14,B20,"Patient feeling fine ðŸ™‚",0,112,61,2023-04-24
+"ID- 209","Jane Doe",9,Female,Boston,32,80,Unknown,No,Unknown,"aspirin,metformin",30,I10,"Follow up soon",1,120,80,2021-09-11
+"ID- 212","Lee Sara",0,Male,Unknown,29,0,Normal,Yes,Former,None,30,Unknown,"BP high, needs recheck",1,NULL,NULL,2025-08-11
+"ID- 213","Lee Sara",5,Male,"New York",0,0,normal,Yes,Unknown,"Aspirin; Metformin",30,unknown,,Unknown,NULL,NULL,2021-02-07
+"ID- 214","Smith Alice",5,Female,"New York",22,NULL,normal,Yes,Unknown,None,30,A00,n/a,1,120,80,2021-07-11
+"ID- 215","Smith Alice",5,Female,"New York",23,50,Normal,Unknown,Unknown,"aspirin,metformin",14,B20,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-01-26
+"ID- 216","Smith Alice",25,Female,Chicago,32,0,normal,No,No,"Aspirin; Metformin",30,E11.9,"BP high, needs recheck",Unknown,NULL,NULL,2025-05-01
+"ID- 219","Michael Brown",25,Female,Unknown,23,80,high,Unknown,EX-smoker,None,0,A00,"Follow up soon",0,120,80,2022-08-09
+"ID- 222","Michael Brown",25,Female,Boston,23,91,high,Yes,Former,None,14,B20,,Unknown,120,80,2025-04-12
+"ID- 224","John Doe",31,Female,"Los Angeles",21,NULL,normal,No,Former,Unknown,30,Unknown,n/a,Unknown,151,91,2021-08-11
+"ID- 225","Lee Sara",5,Male,"New York",23,80,normal,Yes,Yes,"Lisinopril / Metformin",30,B20,"Follow up soon",0,116,84,2020-01-02
+"ID- 226","Smith Alice",25,Female,Boston,25,NULL,normal,No,Yes,"Aspirin; Metformin",14,B20,n/a,Unknown,120,80,2023-03-24
+"ID- 227","John Doe",25,Female,chicago,23,50,Normal,No,Unknown,None,0,unknown,"Follow up soon",Unknown,120,80,2024-09-19
+"ID- 228","Michael Brown",96,Female,Unknown,0,88,normal,Unknown,Yes,"Lisinopril / Metformin",0,unknown,"BP high, needs recheck",Unknown,120,80,2022-08-14
+"ID- 230","John Doe",25,Female,Boston,20,80,High,Yes,EX-smoker,Unknown,30,Unknown,"Follow up soon",0,120,80,2022-11-02
+"ID- 231","Jane Doe",68,Female,Unknown,22,50,High,No,Unknown,Unknown,14,unknown,"Follow up soon",1,133,78,2022-01-29
+"ID- 234","Jane Doe",46,Female,"New York",22,0,Unknown,Unknown,Unknown,"Lisinopril / Metformin",0,I10,"Follow up soon",0,NULL,NULL,2024-02-26
+"ID- 235","John Doe",87,Female,"Los Angeles",23,80,High,Yes,No,"Lisinopril / Metformin",14,Unknown,,Unknown,120,80,2021-04-22
+"ID- 236","Jane Doe",5,Female,"Los Angeles",23,NULL,Normal,No,Unknown,"Lisinopril / Metformin",14,E11.9,"BP high, needs recheck",Unknown,120,80,2023-11-07
+"ID- 237","Jane Doe",33,Female,"New York",23,80,normal,Unknown,Unknown,None,30,I10,n/a,Unknown,120,80,2024-10-11
+"ID- 239","Jane Doe",40,Female,Chicago,0,104,normal,Unknown,No,"aspirin,metformin",30,E11.9,"BP high, needs recheck",0,129,80,2021-09-13
+"ID- 240","Smith Alice",25,Female,Unknown,22,80,normal,Yes,Former,"Aspirin; Metformin",0,Unknown,"BP high, needs recheck",1,120,80,2022-11-27
+"ID- 241","Smith Alice",25,Female,"New York",0,50,Normal,Unknown,Yes,"Lisinopril / Metformin",0,B20,"Follow up soon",0,120,80,2022-06-17
+"ID- 243","Lee Sara",53,Male,"Los Angeles",0,120,high,Yes,No,Unknown,30,E11.9,"BP high, needs recheck",Unknown,109,99,2023-08-07
+"ID- 244","Smith Alice",25,Female,"Los Angeles",0,108,normal,Yes,Yes,"Lisinopril / Metformin",14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-04-21
+"ID- 245","Michael Brown",5,Female,"Los Angeles",0,0,High,No,Unknown,Unknown,14,B20,"Follow up soon",Unknown,NULL,NULL,2023-02-13
+"ID- 247","Smith Alice",39,Female,Boston,23,80,High,No,Yes,None,14,Unknown,n/a,0,111,82,2021-01-04
+"ID- 248","Michael Brown",5,Female,"New York",22,0,Unknown,Yes,Former,Unknown,14,unknown,"Follow up soon",Unknown,NULL,NULL,2020-11-11
+"ID- 250","Michael Brown",25,Female,"Los Angeles",22,80,Normal,No,Unknown,Unknown,30,A00,"Patient feeling fine ðŸ™‚",0,120,80,2021-06-15
+"ID- 251","Michael Brown",5,Female,Unknown,0,NULL,High,Yes,Unknown,None,30,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2025-09-16
+"ID- 252","Michael Brown",5,Female,"Los Angeles",0,80,high,Unknown,EX-smoker,"aspirin,metformin",14,A00,"Patient feeling fine ðŸ™‚",0,120,80,2022-02-19
+"ID- 253","Lee Sara",5,Male,chicago,0,80,Unknown,Yes,No,None,14,A00,"Follow up soon",Unknown,120,80,2021-03-11
+"ID- 254","Smith Alice",25,Female,"New York",23,NULL,High,No,No,Unknown,0,Unknown,"BP high, needs recheck",Unknown,120,80,2021-10-23
+"ID- 256","Michael Brown",75,Female,Boston,23,80,normal,Yes,EX-smoker,"aspirin,metformin",30,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-04-21
+"ID- 257","Lee Sara",9,Male,"Los Angeles",22,50,High,Yes,Unknown,"aspirin,metformin",30,B20,,Unknown,120,80,2023-10-01
+"ID- 259","Jane Doe",5,Female,"New York",19,0,normal,No,Unknown,"Lisinopril / Metformin",14,I10,n/a,1,NULL,NULL,2021-07-30
+"ID- 261","John Doe",5,Female,chicago,0,62,Normal,Yes,Unknown,Unknown,30,I10,"Follow up soon",0,120,80,2023-12-28
+"ID- 262","Michael Brown",25,Female,Unknown,0,NULL,High,Unknown,Unknown,Unknown,0,B20,"Patient feeling fine ðŸ™‚",1,120,80,2025-02-15
+"ID- 264","Michael Brown",5,Female,chicago,23,58,Unknown,Unknown,Former,"Aspirin; Metformin",30,B20,,Unknown,112,81,2022-04-14
+"ID- 265","Michael Brown",25,Female,Chicago,0,NULL,Normal,No,Unknown,"aspirin,metformin",30,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2024-02-09
+"ID- 266","Jane Doe",25,Female,"New York",0,0,Unknown,No,Yes,"Lisinopril / Metformin",30,unknown,,Unknown,NULL,NULL,2022-07-10
+"ID- 267","John Doe",25,Female,"New York",0,NULL,Unknown,No,EX-smoker,"Lisinopril / Metformin",30,Unknown,"Follow up soon",Unknown,120,80,2022-08-31
+"ID- 268","Michael Brown",25,Female,Unknown,23,80,High,No,Unknown,Unknown,14,unknown,"BP high, needs recheck",Unknown,120,80,2024-04-30
+"ID- 269","Jane Doe",5,Female,Unknown,0,0,Unknown,Unknown,Yes,"aspirin,metformin",14,unknown,n/a,0,NULL,NULL,2025-01-22
+"ID- 270","Smith Alice",25,Female,"Los Angeles",22,NULL,High,No,Yes,"aspirin,metformin",14,I10,"Follow up soon",Unknown,120,80,2020-04-08
+"ID- 271","Michael Brown",15,Female,"Los Angeles",23,80,Unknown,No,Unknown,"Lisinopril / Metformin",30,B20,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-02-06
+"ID- 272","Lee Sara",85,Male,"New York",22,50,normal,Unknown,No,"Lisinopril / Metformin",30,unknown,"BP high, needs recheck",Unknown,120,80,2025-02-19
+"ID- 273","John Doe",25,Female,"New York",32,63,normal,Unknown,Former,"Aspirin; Metformin",0,A00,,0,120,80,2024-03-08
+"ID- 274","Lee Sara",35,Male,"New York",0,80,high,Yes,Unknown,None,0,A00,"BP high, needs recheck",Unknown,120,80,2022-04-10
+"ID- 275","Lee Sara",25,Male,"New York",22,58,Unknown,No,Unknown,"aspirin,metformin",14,E11.9,n/a,1,120,80,2022-08-11
+"ID- 278","Lee Sara",12,Male,"New York",22,0,High,Yes,Unknown,"Lisinopril / Metformin",30,A00,,Unknown,NULL,NULL,2024-01-29
+"ID- 279","Michael Brown",25,Female,chicago,23,50,High,No,Former,"aspirin,metformin",0,A00,"Patient feeling fine ðŸ™‚",1,120,80,2023-01-31
+"ID- 281","Smith Alice",5,Female,Unknown,32,56,normal,No,Unknown,"Aspirin; Metformin",14,I10,"Follow up soon",Unknown,120,80,2021-02-27
+"ID- 282","John Doe",25,Female,"Los Angeles",0,50,Unknown,No,Yes,"Aspirin; Metformin",14,unknown,"BP high, needs recheck",Unknown,120,80,2020-12-05
+"ID- 283","Smith Alice",25,Female,Unknown,0,NULL,high,Yes,Unknown,"Lisinopril / Metformin",30,A00,,0,120,80,2022-08-23
+"ID- 284","John Doe",25,Female,Chicago,23,50,Normal,No,EX-smoker,"Lisinopril / Metformin",0,A00,"Patient feeling fine ðŸ™‚",0,120,80,2022-07-02
+"ID- 285","John Doe",55,Female,Chicago,23,80,normal,No,Yes,Unknown,14,I10,,Unknown,131,88,2020-10-11
+"ID- 286","Smith Alice",25,Female,"New York",0,66,high,Yes,Unknown,"aspirin,metformin",14,unknown,"BP high, needs recheck",1,120,80,2023-07-30
+"ID- 287","Michael Brown",5,Female,"New York",31,0,normal,Yes,Unknown,"Aspirin; Metformin",14,Unknown,n/a,1,NULL,NULL,2021-04-04
+"ID- 289","Jane Doe",25,Female,"Los Angeles",0,80,Normal,Unknown,Yes,"Aspirin; Metformin",0,E11.9,"Follow up soon",Unknown,116,99,2024-12-11
+"ID- 290","Jane Doe",11,Female,"New York",0,119,high,No,No,"aspirin,metformin",0,Unknown,"Follow up soon",1,120,80,2025-03-20
+"ID- 291","Jane Doe",5,Female,chicago,0,NULL,High,Yes,Former,None,0,A00,,Unknown,120,80,2020-07-09
+"ID- 293","John Doe",25,Female,"New York",0,NULL,Unknown,Yes,Unknown,"Lisinopril / Metformin",30,B20,"BP high, needs recheck",1,120,80,2022-10-17
+"ID- 294","Smith Alice",5,Female,Boston,23,50,Normal,No,Unknown,"Aspirin; Metformin",14,unknown,n/a,Unknown,120,80,2021-11-17
+"ID- 296","Smith Alice",55,Female,"New York",23,0,normal,No,Former,Unknown,0,unknown,,0,NULL,NULL,2023-05-09
+"ID- 298","John Doe",5,Female,Chicago,22,80,Normal,No,Unknown,"Lisinopril / Metformin",14,unknown,"Follow up soon",0,120,80,2021-07-25
+"ID- 299","John Doe",25,Female,"New York",22,57,Unknown,Yes,No,"Lisinopril / Metformin",30,E11.9,,Unknown,120,80,2020-04-05
+"ID- 301","Michael Brown",1,Female,Boston,22,50,Unknown,Yes,No,"Lisinopril / Metformin",30,unknown,,Unknown,120,80,2020-11-05
+"ID- 303","John Doe",15,Female,"New York",20,89,normal,No,Unknown,None,14,I10,"BP high, needs recheck",0,120,80,2024-05-20
+"ID- 304","Lee Sara",5,Male,"Los Angeles",23,61,normal,Unknown,No,Unknown,14,A00,"BP high, needs recheck",Unknown,120,80,2022-06-23
+"ID- 305","Lee Sara",25,Male,"New York",22,50,Normal,Yes,No,Unknown,14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2021-07-23
+"ID- 306","Lee Sara",5,Male,"New York",22,0,Normal,Yes,EX-smoker,Unknown,14,B20,"BP high, needs recheck",1,NULL,NULL,2024-05-22
+"ID- 307","Lee Sara",5,Male,"New York",33,NULL,high,No,Unknown,None,0,B20,"Patient feeling fine ðŸ™‚",1,120,80,2024-07-16
+"ID- 311","Jane Doe",5,Female,Chicago,30,0,high,Yes,Former,"Lisinopril / Metformin",14,Unknown,n/a,0,NULL,NULL,2024-12-10
+"ID- 312","Lee Sara",25,Male,Unknown,22,NULL,normal,Yes,Unknown,"Lisinopril / Metformin",30,B20,"BP high, needs recheck",Unknown,120,80,2023-09-27
+"ID- 314","Smith Alice",25,Female,"Los Angeles",22,0,high,Yes,EX-smoker,"Lisinopril / Metformin",30,unknown,,0,NULL,NULL,2020-07-04
+"ID- 315","Smith Alice",5,Female,"Los Angeles",23,0,High,Yes,Former,"aspirin,metformin",0,I10,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2022-07-01
+"ID- 316","Smith Alice",62,Female,"Los Angeles",21,50,Normal,No,Former,"aspirin,metformin",14,E11.9,n/a,Unknown,120,80,2025-01-15
+"ID- 317","Lee Sara",5,Male,"New York",23,NULL,normal,Unknown,Unknown,None,14,A00,"BP high, needs recheck",0,120,80,2022-09-02
+"ID- 318","John Doe",25,Female,Chicago,23,50,High,Unknown,Yes,"Lisinopril / Metformin",0,I10,"BP high, needs recheck",Unknown,130,93,2023-01-22
+"ID- 319","Michael Brown",53,Female,Boston,0,80,Unknown,Yes,Yes,None,14,unknown,"BP high, needs recheck",1,143,74,2020-04-03
+"ID- 320","Smith Alice",25,Female,"New York",23,50,high,Yes,No,Unknown,14,Unknown,"Follow up soon",Unknown,120,80,2025-08-07
+"ID- 321","Jane Doe",7,Female,"New York",23,0,high,No,Unknown,Unknown,30,unknown,"BP high, needs recheck",Unknown,NULL,NULL,2020-04-17
+"ID- 324","Michael Brown",25,Female,"New York",23,0,high,Yes,EX-smoker,Unknown,14,I10,"BP high, needs recheck",Unknown,NULL,NULL,2025-04-17
+"ID- 325","Lee Sara",1,Male,"New York",16,114,Normal,Yes,Yes,"Aspirin; Metformin",30,unknown,"Follow up soon",Unknown,143,91,2023-02-26
+"ID- 326","Lee Sara",25,Male,Boston,0,NULL,high,Yes,Former,Unknown,14,E11.9,n/a,1,118,82,2025-08-15
+"ID- 329","John Doe",25,Female,"Los Angeles",22,57,Normal,Yes,Unknown,"aspirin,metformin",14,Unknown,n/a,Unknown,128,97,2025-01-27
+"ID- 330","Jane Doe",5,Female,Unknown,22,50,High,Unknown,Yes,Unknown,14,I10,"Follow up soon",Unknown,120,80,2024-05-12
+"ID- 331","Jane Doe",25,Female,"Los Angeles",23,50,normal,No,Unknown,Unknown,14,E11.9,"Patient feeling fine ðŸ™‚",1,154,69,2020-06-29
+"ID- 333","Jane Doe",72,Female,chicago,23,80,Unknown,Unknown,Yes,Unknown,30,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2023-11-02
+"ID- 335","John Doe",28,Female,"New York",22,76,Normal,No,Yes,"Lisinopril / Metformin",14,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-04-01
+"ID- 338","Lee Sara",25,Male,"New York",22,0,Normal,Unknown,Unknown,Unknown,0,unknown,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-09-18
+"ID- 339","Lee Sara",5,Male,chicago,19,NULL,High,Yes,Former,"Lisinopril / Metformin",14,E11.9,n/a,0,120,80,2024-09-25
+"ID- 342","Lee Sara",54,Male,"Los Angeles",0,0,Normal,Unknown,Yes,"aspirin,metformin",0,I10,"BP high, needs recheck",Unknown,NULL,NULL,2025-08-11
+"ID- 347","Lee Sara",5,Male,"New York",16,63,normal,Yes,No,"Aspirin; Metformin",14,unknown,n/a,0,159,60,2025-01-31
+"ID- 348","Lee Sara",25,Male,Unknown,22,NULL,normal,Yes,EX-smoker,"aspirin,metformin",30,A00,,0,104,65,2020-12-26
+"ID- 349","Jane Doe",5,Female,"New York",23,106,Unknown,Unknown,Former,Unknown,0,B20,n/a,1,120,80,2023-01-12
+"ID- 351","John Doe",50,Female,chicago,22,80,high,Unknown,No,None,30,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-03-23
+"ID- 352","Jane Doe",25,Female,chicago,33,0,high,Unknown,No,Unknown,0,unknown,,0,NULL,NULL,2020-01-10
+"ID- 355","Smith Alice",3,Female,"New York",23,0,Normal,Unknown,Former,None,30,Unknown,,0,NULL,NULL,2024-11-03
+"ID- 356","Lee Sara",5,Male,"Los Angeles",32,NULL,high,Unknown,Yes,None,30,I10,"Follow up soon",Unknown,120,80,2023-02-16
+"ID- 358","Jane Doe",50,Female,Unknown,23,52,Unknown,Unknown,Yes,None,14,I10,n/a,Unknown,120,80,2025-08-23
+"ID- 359","Smith Alice",5,Female,"New York",19,55,High,Yes,Former,None,14,Unknown,n/a,0,120,80,2021-09-28
+"ID- 360","Smith Alice",27,Female,"New York",0,90,high,Yes,Former,None,14,B20,"BP high, needs recheck",1,120,80,2020-12-05
+"ID- 362","John Doe",25,Female,chicago,0,60,normal,No,EX-smoker,"Aspirin; Metformin",14,A00,,1,156,93,2024-03-13
+"ID- 364","Smith Alice",25,Female,Boston,0,NULL,high,Yes,Unknown,"Aspirin; Metformin",14,A00,"BP high, needs recheck",Unknown,120,80,2025-03-31
+"ID- 365","Lee Sara",5,Male,Boston,34,74,high,Yes,Former,Unknown,14,I10,"Follow up soon",1,116,74,2025-08-23
+"ID- 366","Michael Brown",25,Female,"New York",0,NULL,normal,No,Unknown,None,14,I10,,1,120,80,2022-02-18
+"ID- 367","Smith Alice",97,Female,"New York",23,102,Normal,Unknown,Yes,Unknown,14,E11.9,,0,92,94,2022-08-24
+"ID- 368","Jane Doe",5,Female,chicago,22,50,Normal,Unknown,Unknown,"aspirin,metformin",14,I10,"BP high, needs recheck",1,120,80,2023-05-30
+"ID- 370","Smith Alice",58,Female,"Los Angeles",0,80,Unknown,No,No,None,14,A00,n/a,0,120,80,2024-11-19
+"ID- 371","Jane Doe",25,Female,"New York",21,92,normal,No,No,None,30,B20,"Follow up soon",Unknown,120,80,2023-09-14
+"ID- 372","Smith Alice",5,Female,"Los Angeles",22,NULL,normal,Unknown,Former,None,30,E11.9,"BP high, needs recheck",0,120,80,2020-09-12
+"ID- 373","John Doe",98,Female,Chicago,0,80,high,Unknown,Yes,"aspirin,metformin",14,E11.9,"BP high, needs recheck",0,120,80,2024-10-05
+"ID- 374","Jane Doe",5,Female,"New York",22,80,high,Unknown,Unknown,"aspirin,metformin",14,B20,,0,120,80,2022-10-07
+"ID- 376","Lee Sara",84,Male,Chicago,22,80,Unknown,Unknown,Unknown,None,0,I10,"Follow up soon",0,120,80,2020-08-07
+"ID- 377","Michael Brown",5,Female,"Los Angeles",23,NULL,Normal,Yes,Unknown,Unknown,30,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-08-18
+"ID- 379","Smith Alice",62,Female,"New York",0,0,high,Unknown,No,"aspirin,metformin",0,unknown,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2025-01-13
+"ID- 381","Lee Sara",6,Male,Boston,23,0,High,Unknown,Former,"Lisinopril / Metformin",14,E11.9,,Unknown,NULL,NULL,2024-12-06
+"ID- 382","John Doe",81,Female,Boston,0,NULL,high,Unknown,Yes,"Aspirin; Metformin",0,I10,,0,120,80,2021-01-18
+"ID- 386","Smith Alice",25,Female,Boston,34,50,Normal,No,No,None,0,E11.9,"Follow up soon",1,128,86,2024-09-11
+"ID- 387","Smith Alice",78,Female,"Los Angeles",23,76,normal,Yes,Former,"Lisinopril / Metformin",0,A00,"BP high, needs recheck",Unknown,120,80,2022-01-04
+"ID- 389","Michael Brown",61,Female,Unknown,23,80,Normal,Unknown,No,Unknown,14,unknown,,Unknown,120,80,2024-01-04
+"ID- 390","Jane Doe",5,Female,Chicago,0,NULL,normal,Unknown,EX-smoker,"Aspirin; Metformin",14,unknown,"Follow up soon",0,159,85,2025-05-15
+"ID- 391","Michael Brown",5,Female,"New York",23,NULL,high,No,EX-smoker,Unknown,14,Unknown,,Unknown,120,80,2020-04-22
+"ID- 392","Michael Brown",59,Female,chicago,22,0,High,Unknown,Former,"Lisinopril / Metformin",0,E11.9,"BP high, needs recheck",Unknown,NULL,NULL,2020-12-28
+"ID- 393","Jane Doe",86,Female,"New York",22,0,normal,Yes,No,Unknown,0,E11.9,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2025-06-20
+"ID- 395","Smith Alice",5,Female,"New York",22,50,normal,Unknown,EX-smoker,None,14,E11.9,"Patient feeling fine ðŸ™‚",1,152,89,2020-04-25
+"ID- 396","Lee Sara",89,Male,Unknown,35,50,normal,No,No,"Aspirin; Metformin",14,B20,"Follow up soon",Unknown,153,68,2021-07-20
+"ID- 397","Jane Doe",5,Female,chicago,0,0,Normal,Yes,Unknown,"Lisinopril / Metformin",14,B20,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2022-04-27
+"ID- 398","Lee Sara",25,Male,Boston,0,80,Unknown,No,Yes,"aspirin,metformin",0,A00,"Follow up soon",1,120,80,2025-01-18
+"ID- 399","Michael Brown",25,Female,"New York",0,50,Normal,No,EX-smoker,"aspirin,metformin",30,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-08-05
+"ID- 403","Lee Sara",25,Male,"New York",22,0,Normal,Unknown,Former,Unknown,30,E11.9,"BP high, needs recheck",Unknown,NULL,NULL,2020-08-07
+"ID- 405","John Doe",32,Female,"New York",0,NULL,high,No,Unknown,None,0,unknown,"Follow up soon",1,120,80,2023-11-11
+"ID- 407","John Doe",31,Female,Chicago,0,80,high,Unknown,Former,Unknown,0,B20,,Unknown,120,80,2024-03-18
+"ID- 408","Michael Brown",5,Female,"New York",0,113,Unknown,Unknown,Unknown,None,0,unknown,"BP high, needs recheck",Unknown,120,80,2021-02-15
+"ID- 410","John Doe",81,Female,Unknown,34,80,Normal,No,EX-smoker,Unknown,14,B20,n/a,Unknown,132,98,2025-01-25
+"ID- 411","Lee Sara",90,Male,"Los Angeles",0,93,Unknown,Yes,EX-smoker,"Aspirin; Metformin",30,B20,"Follow up soon",Unknown,120,80,2022-04-05
+"ID- 412","Jane Doe",25,Female,"New York",22,0,High,Yes,Former,None,0,unknown,n/a,1,NULL,NULL,2021-05-25
+"ID- 413","Michael Brown",11,Female,Unknown,22,0,Normal,Yes,EX-smoker,"Aspirin; Metformin",14,I10,,Unknown,NULL,NULL,2020-08-13
+"ID- 414","Lee Sara",25,Male,Unknown,22,NULL,high,Yes,No,"Aspirin; Metformin",14,E11.9,"BP high, needs recheck",Unknown,120,80,2021-09-30
+"ID- 416","John Doe",5,Female,"New York",22,80,Normal,Yes,Yes,Unknown,14,B20,n/a,1,120,80,2025-06-24
+"ID- 418","Michael Brown",44,Female,"Los Angeles",22,50,Normal,Yes,Yes,"Lisinopril / Metformin",30,A00,"Follow up soon",0,120,80,2021-09-25
+"ID- 419","John Doe",37,Female,"New York",0,105,high,Unknown,Unknown,"aspirin,metformin",0,A00,"Follow up soon",1,120,80,2023-07-07
+"ID- 420","John Doe",2,Female,"New York",0,0,normal,No,EX-smoker,Unknown,30,I10,"Follow up soon",Unknown,NULL,NULL,2021-11-27
+"ID- 421","John Doe",45,Female,"New York",23,50,High,Unknown,EX-smoker,"Lisinopril / Metformin",0,B20,,Unknown,120,80,2023-08-27
+"ID- 424","Michael Brown",25,Female,Unknown,22,80,Unknown,Yes,Unknown,"Lisinopril / Metformin",14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-12-17
+"ID- 425","Jane Doe",5,Female,"New York",23,NULL,High,Yes,Former,"Lisinopril / Metformin",14,I10,n/a,Unknown,120,80,2020-08-21
+"ID- 426","Smith Alice",25,Female,Unknown,0,0,normal,Unknown,No,"Aspirin; Metformin",14,I10,,1,NULL,NULL,2022-05-04
+"ID- 427","Jane Doe",63,Female,"New York",22,50,high,No,Unknown,"Aspirin; Metformin",14,unknown,n/a,Unknown,120,80,2025-04-26
+"ID- 428","Smith Alice",25,Female,"New York",23,94,High,Unknown,Yes,"aspirin,metformin",30,A00,"BP high, needs recheck",1,92,82,2023-04-09
+"ID- 429","Lee Sara",5,Male,"New York",22,NULL,high,Unknown,EX-smoker,None,0,B20,n/a,0,120,80,2020-02-22
+"ID- 430","Smith Alice",25,Female,"New York",23,79,normal,No,Yes,"Aspirin; Metformin",0,B20,"Patient feeling fine ðŸ™‚",1,120,80,2020-12-13
+"ID- 431","Michael Brown",25,Female,Boston,19,80,high,Unknown,EX-smoker,"Lisinopril / Metformin",30,B20,"Follow up soon",Unknown,120,80,2024-01-13
+"ID- 432","Jane Doe",5,Female,"New York",22,50,normal,Yes,Unknown,"aspirin,metformin",0,unknown,,1,120,80,2022-12-05
+"ID- 433","Michael Brown",5,Female,"New York",23,80,high,No,No,"Lisinopril / Metformin",0,unknown,n/a,0,120,80,2021-05-10
+"ID- 434","Smith Alice",25,Female,"New York",22,NULL,Unknown,Unknown,Unknown,"Lisinopril / Metformin",14,A00,"BP high, needs recheck",1,120,80,2023-11-17
+"ID- 435","Michael Brown",66,Female,"New York",0,0,high,No,Unknown,"aspirin,metformin",0,Unknown,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2023-03-06
+"ID- 436","Jane Doe",25,Female,"New York",25,80,high,No,EX-smoker,Unknown,30,A00,,0,120,80,2022-02-16
+"ID- 438","Smith Alice",5,Female,Chicago,23,50,high,No,Yes,"Aspirin; Metformin",0,E11.9,n/a,Unknown,120,80,2021-11-21
+"ID- 441","John Doe",25,Female,Unknown,22,50,Normal,Unknown,Former,Unknown,14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,131,76,2025-01-30
+"ID- 445","Smith Alice",5,Female,"New York",23,0,normal,No,Former,None,14,I10,"BP high, needs recheck",Unknown,NULL,NULL,2024-05-14
+"ID- 447","Smith Alice",5,Female,"New York",16,87,Unknown,Unknown,Former,"Aspirin; Metformin",14,I10,"Patient feeling fine ðŸ™‚",1,120,71,2023-07-10
+"ID- 448","Smith Alice",5,Female,"Los Angeles",24,NULL,normal,No,EX-smoker,"aspirin,metformin",30,A00,n/a,Unknown,116,63,2025-08-10
+"ID- 450","Jane Doe",25,Female,"New York",0,117,High,Unknown,Yes,"Aspirin; Metformin",0,B20,,Unknown,120,80,2020-10-10
+"ID- 451","Michael Brown",93,Female,"New York",28,NULL,Unknown,Yes,Former,Unknown,14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-04-18
+"ID- 453","John Doe",51,Female,"Los Angeles",0,50,Unknown,Yes,Unknown,Unknown,14,B20,"Patient feeling fine ðŸ™‚",0,130,89,2022-11-16
+"ID- 454","John Doe",5,Female,"New York",16,NULL,High,Yes,Unknown,None,14,A00,,0,120,80,2020-03-21
+"ID- 455","Michael Brown",25,Female,"New York",22,119,high,Yes,Former,"Aspirin; Metformin",0,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2020-11-09
+"ID- 456","Lee Sara",10,Male,"New York",22,107,High,Yes,EX-smoker,None,0,A00,"Follow up soon",Unknown,120,80,2024-01-29
+"ID- 457","Lee Sara",5,Male,chicago,23,0,High,No,EX-smoker,"aspirin,metformin",0,I10,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2023-08-18
+"ID- 458","Michael Brown",15,Female,"Los Angeles",23,0,Unknown,Unknown,Former,"Lisinopril / Metformin",14,E11.9,"Follow up soon",Unknown,NULL,NULL,2022-10-21
+"ID- 459","Lee Sara",5,Male,"Los Angeles",23,0,Normal,Yes,Unknown,Unknown,14,unknown,,Unknown,NULL,NULL,2025-06-11
+"ID- 461","Lee Sara",25,Male,Unknown,23,113,high,Unknown,Yes,None,0,unknown,"BP high, needs recheck",1,120,80,2023-04-13
+"ID- 463","John Doe",46,Female,"Los Angeles",23,80,High,No,Former,"Aspirin; Metformin",14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-04-03
+"ID- 464","Michael Brown",25,Female,Unknown,16,80,high,Unknown,Former,Unknown,14,unknown,,0,120,80,2023-04-05
+"ID- 465","Michael Brown",25,Female,"New York",0,0,High,No,No,"Lisinopril / Metformin",0,Unknown,"Follow up soon",Unknown,NULL,NULL,2021-04-25
+"ID- 466","Smith Alice",53,Female,Unknown,0,0,high,Unknown,Yes,"aspirin,metformin",14,A00,"Follow up soon",Unknown,NULL,NULL,2025-03-27
+"ID- 467","Michael Brown",82,Female,Unknown,23,NULL,Unknown,Yes,Yes,Unknown,14,I10,"Follow up soon",0,160,79,2021-02-14
+"ID- 468","Smith Alice",25,Female,Chicago,22,0,Unknown,Unknown,Yes,Unknown,30,B20,"Follow up soon",Unknown,NULL,NULL,2025-06-27
+"ID- 469","Michael Brown",5,Female,"New York",23,0,Unknown,Unknown,EX-smoker,None,14,A00,"Follow up soon",0,NULL,NULL,2020-10-13
+"ID- 472","Lee Sara",25,Male,chicago,25,50,Normal,Yes,No,Unknown,0,A00,,1,120,80,2021-11-10
+"ID- 475","John Doe",25,Female,"New York",0,80,Unknown,No,No,Unknown,30,E11.9,"BP high, needs recheck",0,120,80,2020-04-13
+"ID- 477","John Doe",5,Female,Boston,22,0,Normal,Yes,Former,Unknown,14,Unknown,"Follow up soon",1,NULL,NULL,2022-01-29
+"ID- 478","Lee Sara",10,Male,Unknown,0,0,normal,No,Unknown,"aspirin,metformin",14,unknown,"BP high, needs recheck",0,NULL,NULL,2022-08-31
+"ID- 479","John Doe",5,Female,"New York",30,NULL,High,Unknown,Former,"Aspirin; Metformin",14,E11.9,"Follow up soon",Unknown,90,71,2021-05-18
+"ID- 481","Lee Sara",25,Male,"New York",22,NULL,high,No,EX-smoker,Unknown,14,Unknown,,Unknown,122,67,2022-12-08
+"ID- 482","Lee Sara",25,Male,"New York",0,0,high,Unknown,Former,None,14,B20,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2020-10-23
+"ID- 483","John Doe",5,Female,Unknown,23,80,Unknown,Yes,Yes,"aspirin,metformin",14,I10,"Follow up soon",0,109,77,2021-09-11
+"ID- 484","Smith Alice",53,Female,chicago,23,0,High,Yes,Unknown,"aspirin,metformin",14,E11.9,,1,NULL,NULL,2020-09-22
+"ID- 485","Jane Doe",25,Female,"New York",0,93,High,Unknown,Yes,"Aspirin; Metformin",30,E11.9,"Follow up soon",1,120,80,2020-12-06
+"ID- 487","Michael Brown",25,Female,"Los Angeles",16,84,normal,No,Unknown,"Lisinopril / Metformin",30,Unknown,"Follow up soon",1,120,80,2020-04-12
+"ID- 488","Jane Doe",52,Female,Chicago,0,62,high,Yes,Yes,Unknown,30,A00,,Unknown,120,80,2023-04-23
+"ID- 489","John Doe",25,Female,"Los Angeles",0,78,Normal,No,Former,"Lisinopril / Metformin",30,A00,"BP high, needs recheck",Unknown,143,64,2020-07-06
+"ID- 490","Michael Brown",5,Female,Chicago,22,56,high,Yes,EX-smoker,Unknown,14,B20,"Follow up soon",Unknown,120,80,2022-05-24
+"ID- 491","Jane Doe",5,Female,"New York",0,0,Normal,Unknown,Unknown,"Aspirin; Metformin",14,A00,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2022-11-28
+"ID- 492","Michael Brown",5,Female,"New York",23,0,Normal,Yes,Unknown,"Lisinopril / Metformin",14,Unknown,n/a,Unknown,NULL,NULL,2021-09-05
+"ID- 494","Lee Sara",25,Male,"Los Angeles",19,NULL,high,No,Yes,"Lisinopril / Metformin",30,unknown,,1,120,80,2025-06-30
+"ID- 495","John Doe",5,Female,Chicago,22,80,normal,Yes,Former,None,14,A00,,Unknown,120,80,2024-02-18
+"ID- 496","John Doe",74,Female,"New York",22,50,Unknown,No,Former,Unknown,0,unknown,"Follow up soon",1,159,82,2022-08-23
+"ID- 497","Smith Alice",30,Female,"New York",22,52,Unknown,Unknown,EX-smoker,None,0,B20,,0,120,80,2023-06-16
+"ID- 498","Michael Brown",75,Female,Chicago,22,86,normal,No,Unknown,Unknown,14,B20,"Follow up soon",Unknown,115,100,2023-05-22
+"ID- 499","Jane Doe",25,Female,"New York",23,0,high,Unknown,EX-smoker,Unknown,14,Unknown,,Unknown,NULL,NULL,2020-01-02
+"ID- 500","Lee Sara",5,Male,"New York",22,80,Normal,Yes,Former,None,14,Unknown,"Follow up soon",Unknown,120,80,2021-12-11
+"ID- 501","Jane Doe",19,Female,"Los Angeles",0,0,high,Unknown,EX-smoker,"Lisinopril / Metformin",14,I10,"BP high, needs recheck",0,NULL,NULL,2023-12-29
+"ID- 503","Lee Sara",5,Male,Unknown,22,113,Unknown,No,Yes,"Lisinopril / Metformin",0,Unknown,,1,120,80,2021-07-03
+"ID- 504","Michael Brown",25,Female,"New York",31,0,normal,No,EX-smoker,"aspirin,metformin",0,Unknown,n/a,Unknown,NULL,NULL,2022-07-05
+"ID- 505","Jane Doe",5,Female,"New York",23,80,Unknown,No,Unknown,"Aspirin; Metformin",0,I10,"BP high, needs recheck",0,121,89,2024-11-15
+"ID- 507","Jane Doe",5,Female,"New York",0,0,Unknown,No,Yes,None,14,A00,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-06-10
+"ID- 510","Lee Sara",25,Male,chicago,22,80,Unknown,No,No,None,0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-07-25
+"ID- 513","Smith Alice",80,Female,"New York",0,107,Normal,No,Unknown,None,14,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-09-28
+"ID- 515","John Doe",61,Female,Unknown,23,50,High,No,Yes,"Lisinopril / Metformin",30,E11.9,n/a,Unknown,120,80,2022-12-01
+"ID- 517","Smith Alice",5,Female,Unknown,24,80,high,Unknown,EX-smoker,"Aspirin; Metformin",0,Unknown,n/a,0,120,80,2023-10-23
+"ID- 518","Michael Brown",57,Female,Boston,28,50,normal,Unknown,Former,None,14,B20,n/a,Unknown,142,82,2023-08-19
+"ID- 519","John Doe",5,Female,Chicago,27,50,High,No,Unknown,"Aspirin; Metformin",30,E11.9,"Follow up soon",1,120,80,2021-04-02
+"ID- 521","Jane Doe",25,Female,"Los Angeles",22,NULL,high,No,EX-smoker,"aspirin,metformin",14,B20,,1,120,80,2023-08-26
+"ID- 522","Smith Alice",52,Female,"New York",21,0,High,No,No,"Lisinopril / Metformin",14,A00,"BP high, needs recheck",Unknown,NULL,NULL,2025-06-10
+"ID- 524","John Doe",87,Female,Unknown,22,50,normal,Yes,Unknown,"Aspirin; Metformin",30,B20,,Unknown,120,80,2023-09-04
+"ID- 527","John Doe",5,Female,"Los Angeles",0,0,High,No,Unknown,Unknown,14,E11.9,,0,NULL,NULL,2024-09-16
+"ID- 528","Jane Doe",13,Female,Unknown,22,NULL,high,Yes,Former,Unknown,0,I10,n/a,1,115,84,2021-04-21
+"ID- 532","Smith Alice",25,Female,Chicago,27,106,high,Yes,Unknown,"Lisinopril / Metformin",0,I10,n/a,Unknown,101,87,2023-12-09
+"ID- 534","John Doe",5,Female,"Los Angeles",0,110,Unknown,No,Former,"Aspirin; Metformin",0,E11.9,"BP high, needs recheck",0,120,80,2020-07-10
+"ID- 536","Michael Brown",57,Female,Boston,18,0,High,No,Unknown,Unknown,30,E11.9,,1,NULL,NULL,2020-07-30
+"ID- 537","Jane Doe",25,Female,"New York",23,0,Unknown,Unknown,Unknown,"aspirin,metformin",0,A00,n/a,0,NULL,NULL,2021-05-29
+"ID- 538","Jane Doe",25,Female,"New York",23,0,High,Unknown,EX-smoker,None,30,Unknown,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2022-03-31
+"ID- 539","Smith Alice",25,Female,"New York",24,0,high,Unknown,No,Unknown,0,B20,"Follow up soon",0,NULL,NULL,2024-12-27
+"ID- 540","Smith Alice",97,Female,"New York",26,0,normal,Unknown,Yes,"aspirin,metformin",30,Unknown,"BP high, needs recheck",Unknown,NULL,NULL,2024-08-18
+"ID- 541","John Doe",5,Female,"Los Angeles",0,80,normal,Unknown,Unknown,"Lisinopril / Metformin",14,A00,"Follow up soon",Unknown,120,80,2025-07-14
+"ID- 542","Smith Alice",52,Female,Unknown,23,80,High,Yes,EX-smoker,Unknown,30,Unknown,"Follow up soon",0,120,80,2022-01-17
+"ID- 543","Jane Doe",5,Female,chicago,0,NULL,Unknown,Yes,No,Unknown,0,A00,"Patient feeling fine ðŸ™‚",1,120,80,2024-09-18
+"ID- 545","Jane Doe",5,Female,chicago,26,NULL,High,Unknown,Yes,"aspirin,metformin",14,I10,,Unknown,120,80,2022-03-29
+"ID- 546","Michael Brown",5,Female,Chicago,23,0,high,No,Former,"aspirin,metformin",0,E11.9,,Unknown,NULL,NULL,2022-09-29
+"ID- 549","Smith Alice",5,Female,chicago,19,50,High,Yes,Unknown,"Aspirin; Metformin",30,I10,"Follow up soon",0,120,80,2021-08-19
+"ID- 550","Michael Brown",25,Female,"Los Angeles",22,80,High,Unknown,Yes,"aspirin,metformin",0,A00,n/a,1,120,80,2025-08-21
+"ID- 552","Michael Brown",5,Female,Chicago,0,80,High,No,Unknown,"aspirin,metformin",0,B20,"BP high, needs recheck",0,120,80,2024-06-26
+"ID- 554","Michael Brown",5,Female,"Los Angeles",23,80,Unknown,Unknown,Former,None,30,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-03-27
+"ID- 555","Smith Alice",25,Female,"Los Angeles",0,NULL,Unknown,No,No,"Aspirin; Metformin",14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-05-22
+"ID- 557","Michael Brown",5,Female,Unknown,0,50,High,No,EX-smoker,Unknown,0,unknown,"BP high, needs recheck",1,120,80,2025-07-14
+"ID- 558","Smith Alice",25,Female,Boston,23,NULL,High,Unknown,No,None,0,unknown,"BP high, needs recheck",1,120,80,2023-03-14
+"ID- 559","Smith Alice",58,Female,Chicago,20,70,normal,No,Unknown,"Aspirin; Metformin",0,Unknown,"Patient feeling fine ðŸ™‚",0,120,80,2022-02-12
+"ID- 560","Jane Doe",5,Female,"New York",0,86,Normal,Yes,Unknown,"aspirin,metformin",0,B20,"Patient feeling fine ðŸ™‚",Unknown,127,90,2021-06-05
+"ID- 561","Smith Alice",5,Female,Chicago,0,NULL,Unknown,No,EX-smoker,"Lisinopril / Metformin",30,A00,,Unknown,120,80,2024-02-29
+"ID- 562","Lee Sara",25,Male,Boston,0,0,Unknown,Unknown,EX-smoker,"aspirin,metformin",14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-08-20
+"ID- 564","Michael Brown",37,Female,"New York",0,NULL,Unknown,Yes,EX-smoker,"aspirin,metformin",14,Unknown,"BP high, needs recheck",1,120,80,2020-03-12
+"ID- 567","Jane Doe",25,Female,Chicago,34,50,Unknown,Yes,EX-smoker,Unknown,30,E11.9,"BP high, needs recheck",Unknown,122,83,2021-06-14
+"ID- 568","Michael Brown",23,Female,"New York",0,NULL,Normal,Unknown,EX-smoker,"Lisinopril / Metformin",30,I10,,Unknown,120,80,2020-08-10
+"ID- 569","Michael Brown",24,Female,chicago,0,80,Unknown,Unknown,Yes,"aspirin,metformin",0,Unknown,,Unknown,120,80,2022-10-08
+"ID- 571","John Doe",5,Female,"New York",22,80,high,No,EX-smoker,"aspirin,metformin",14,B20,"BP high, needs recheck",1,120,80,2020-03-12
+"ID- 572","Michael Brown",25,Female,Unknown,0,80,normal,Yes,Unknown,None,30,Unknown,,Unknown,120,80,2021-09-16
+"ID- 574","John Doe",25,Female,Chicago,22,0,High,Yes,Former,Unknown,14,unknown,n/a,0,NULL,NULL,2025-06-01
+"ID- 575","John Doe",25,Female,chicago,16,99,High,No,Former,"Lisinopril / Metformin",14,B20,,1,120,80,2024-11-03
+"ID- 576","Smith Alice",5,Female,"New York",0,50,Unknown,No,Yes,None,14,Unknown,"Follow up soon",0,134,98,2024-04-25
+"ID- 577","John Doe",98,Female,Chicago,0,100,Normal,No,EX-smoker,"aspirin,metformin",14,E11.9,n/a,0,120,80,2021-07-14
+"ID- 578","Lee Sara",92,Male,"New York",23,50,High,No,Unknown,"aspirin,metformin",0,A00,"BP high, needs recheck",0,120,80,2021-03-05
+"ID- 579","Lee Sara",33,Male,"New York",26,0,high,No,EX-smoker,"aspirin,metformin",14,Unknown,,Unknown,NULL,NULL,2022-02-04
+"ID- 580","Smith Alice",5,Female,"New York",22,80,high,No,Unknown,None,0,Unknown,"Patient feeling fine ðŸ™‚",Unknown,121,72,2024-01-20
+"ID- 581","Lee Sara",25,Male,"New York",0,50,High,No,Unknown,None,14,Unknown,n/a,Unknown,120,80,2020-10-31
+"ID- 582","Jane Doe",33,Female,Chicago,0,80,high,No,No,None,30,E11.9,"Patient feeling fine ðŸ™‚",1,120,80,2020-01-28
+"ID- 584","Michael Brown",5,Female,"New York",23,80,high,Unknown,EX-smoker,"Aspirin; Metformin",14,unknown,n/a,Unknown,110,60,2025-01-26
+"ID- 585","Smith Alice",72,Female,Chicago,22,0,normal,Yes,Former,None,30,B20,,0,NULL,NULL,2024-03-10
+"ID- 586","Smith Alice",9,Female,"Los Angeles",23,50,high,Unknown,Former,"Aspirin; Metformin",14,A00,n/a,Unknown,120,80,2020-05-14
+"ID- 587","Smith Alice",5,Female,"New York",22,NULL,Unknown,Yes,No,"Lisinopril / Metformin",0,B20,"Follow up soon",Unknown,151,80,2021-08-26
+"ID- 588","Jane Doe",5,Female,"New York",33,0,normal,Unknown,Unknown,Unknown,14,I10,n/a,Unknown,NULL,NULL,2020-02-07
+"ID- 589","Michael Brown",5,Female,Boston,23,83,high,Unknown,No,"aspirin,metformin",30,A00,"BP high, needs recheck",0,120,80,2023-04-11
+"ID- 590","John Doe",53,Female,"New York",0,87,Unknown,Unknown,No,"Aspirin; Metformin",0,Unknown,,Unknown,120,80,2020-05-03
+"ID- 591","John Doe",5,Female,chicago,0,80,high,Unknown,EX-smoker,"Lisinopril / Metformin",0,I10,"BP high, needs recheck",0,120,80,2023-01-19
+"ID- 592","Smith Alice",13,Female,"New York",0,96,high,Yes,Former,Unknown,14,E11.9,n/a,Unknown,129,75,2025-02-08
+"ID- 594","Lee Sara",5,Male,"New York",22,60,normal,Yes,Yes,"Lisinopril / Metformin",0,I10,n/a,Unknown,120,80,2022-05-17
+"ID- 595","Michael Brown",71,Female,"New York",22,NULL,normal,Unknown,No,"aspirin,metformin",14,unknown,,Unknown,120,80,2022-03-29
+"ID- 597","Michael Brown",5,Female,"New York",29,NULL,normal,Unknown,Unknown,None,30,unknown,n/a,Unknown,111,87,2024-06-01
+"ID- 598","Michael Brown",5,Female,"Los Angeles",28,50,normal,No,Former,"Lisinopril / Metformin",30,Unknown,"BP high, needs recheck",0,120,80,2024-10-17
+"ID- 599","John Doe",25,Female,Chicago,23,NULL,Normal,Unknown,EX-smoker,"aspirin,metformin",30,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2025-04-02
+"ID- 600","Michael Brown",5,Female,Boston,19,NULL,High,No,Unknown,"Lisinopril / Metformin",14,I10,,1,120,80,2022-07-01
+"ID- 602","Lee Sara",5,Male,Unknown,22,80,normal,Yes,Yes,None,30,unknown,n/a,0,97,64,2024-10-16
+"ID- 604","Smith Alice",25,Female,"Los Angeles",22,80,Normal,Unknown,Unknown,"Lisinopril / Metformin",30,B20,"Patient feeling fine ðŸ™‚",0,120,80,2020-03-17
+"ID- 605","Smith Alice",66,Female,"New York",23,0,normal,No,Former,"aspirin,metformin",0,A00,"BP high, needs recheck",Unknown,NULL,NULL,2020-01-31
+"ID- 606","John Doe",5,Female,Unknown,23,80,Unknown,Yes,Former,"Lisinopril / Metformin",0,I10,n/a,0,120,80,2020-05-06
+"ID- 607","Michael Brown",25,Female,"New York",23,0,Normal,Yes,Unknown,"aspirin,metformin",14,E11.9,"Follow up soon",1,NULL,NULL,2024-04-26
+"ID- 608","John Doe",25,Female,"Los Angeles",28,0,Normal,Unknown,Yes,None,0,A00,,1,NULL,NULL,2025-02-10
+"ID- 610","Lee Sara",17,Male,chicago,23,87,Normal,No,Unknown,Unknown,14,Unknown,"Follow up soon",Unknown,119,68,2025-01-31
+"ID- 612","Smith Alice",78,Female,"New York",26,50,high,Yes,Unknown,"Aspirin; Metformin",14,A00,"BP high, needs recheck",1,120,80,2022-07-23
+"ID- 613","Lee Sara",5,Male,"Los Angeles",0,NULL,High,No,Unknown,"Aspirin; Metformin",0,A00,"Follow up soon",Unknown,120,80,2024-07-25
+"ID- 614","Lee Sara",43,Male,Unknown,23,50,Normal,Yes,EX-smoker,Unknown,30,A00,"Follow up soon",1,120,80,2024-03-30
+"ID- 615","John Doe",5,Female,Unknown,0,50,normal,No,Unknown,"Aspirin; Metformin",0,I10,,1,120,80,2021-12-27
+"ID- 616","Jane Doe",25,Female,"New York",18,NULL,high,No,Yes,"Lisinopril / Metformin",0,unknown,"Follow up soon",Unknown,120,80,2024-06-27
+"ID- 617","Jane Doe",25,Female,Boston,22,0,Unknown,No,EX-smoker,"Lisinopril / Metformin",14,I10,"Follow up soon",0,NULL,NULL,2021-03-16
+"ID- 621","John Doe",25,Female,chicago,22,50,Unknown,No,No,None,14,B20,"BP high, needs recheck",0,120,80,2024-01-22
+"ID- 622","Jane Doe",99,Female,"New York",0,0,Unknown,Yes,No,None,14,unknown,n/a,1,NULL,NULL,2021-09-14
+"ID- 623","Michael Brown",5,Female,Unknown,16,0,Normal,Yes,Former,"Aspirin; Metformin",0,I10,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2020-09-28
+"ID- 624","Lee Sara",5,Male,chicago,23,50,Unknown,Unknown,No,"Aspirin; Metformin",0,Unknown,"Patient feeling fine ðŸ™‚",Unknown,143,88,2022-08-28
+"ID- 625","Lee Sara",5,Male,"New York",23,80,High,Yes,Yes,"Aspirin; Metformin",30,E11.9,"BP high, needs recheck",0,120,80,2024-11-04
+"ID- 627","John Doe",5,Female,"Los Angeles",0,0,high,No,EX-smoker,None,14,E11.9,"Follow up soon",1,NULL,NULL,2022-08-08
+"ID- 628","Lee Sara",25,Male,"Los Angeles",22,0,normal,Yes,No,"Lisinopril / Metformin",14,E11.9,,1,NULL,NULL,2024-04-30
+"ID- 629","Lee Sara",91,Male,"New York",21,120,normal,Yes,No,"aspirin,metformin",30,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-07-08
+"ID- 630","John Doe",85,Female,"Los Angeles",0,NULL,High,Yes,Unknown,"aspirin,metformin",0,B20,"BP high, needs recheck",1,120,80,2024-06-27
+"ID- 631","John Doe",67,Female,"New York",0,50,Unknown,Yes,Unknown,Unknown,0,unknown,,Unknown,138,90,2020-02-14
+"ID- 633","Lee Sara",76,Male,Chicago,22,50,Unknown,No,Unknown,"Aspirin; Metformin",30,Unknown,"Follow up soon",1,120,80,2020-07-26
+"ID- 634","Smith Alice",91,Female,"New York",23,50,high,Yes,EX-smoker,"Lisinopril / Metformin",30,unknown,"Follow up soon",Unknown,120,80,2024-06-26
+"ID- 635","Michael Brown",25,Female,Unknown,23,80,high,Yes,EX-smoker,"Lisinopril / Metformin",14,Unknown,,0,120,80,2020-01-12
+"ID- 636","Jane Doe",29,Female,chicago,22,0,Normal,No,Unknown,"Lisinopril / Metformin",30,E11.9,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2020-12-15
+"ID- 637","Jane Doe",25,Female,"New York",27,50,High,Yes,Unknown,"Aspirin; Metformin",14,A00,,Unknown,92,60,2021-03-11
+"ID- 638","Michael Brown",98,Female,"Los Angeles",23,50,high,No,Unknown,"Lisinopril / Metformin",30,E11.9,"Patient feeling fine ðŸ™‚",Unknown,118,93,2023-12-31
+"ID- 640","Jane Doe",25,Female,"New York",0,50,high,Yes,Former,"aspirin,metformin",30,I10,"Follow up soon",0,120,80,2022-06-29
+"ID- 641","Michael Brown",47,Female,Chicago,23,54,Normal,No,Yes,Unknown,14,A00,"Follow up soon",Unknown,120,80,2024-02-11
+"ID- 644","John Doe",5,Female,"New York",0,80,Normal,No,Former,None,30,I10,"BP high, needs recheck",0,120,80,2021-10-06
+"ID- 645","John Doe",5,Female,Boston,22,88,high,No,EX-smoker,"aspirin,metformin",0,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2021-07-23
+"ID- 646","Jane Doe",27,Female,"New York",22,0,normal,Unknown,No,None,30,A00,n/a,Unknown,NULL,NULL,2022-12-27
+"ID- 647","Michael Brown",25,Female,"New York",23,50,high,No,Unknown,Unknown,30,A00,n/a,1,120,80,2020-08-11
+"ID- 648","Jane Doe",25,Female,chicago,23,50,Normal,Yes,Unknown,None,14,unknown,n/a,0,151,74,2021-01-05
+"ID- 649","Jane Doe",26,Female,"New York",23,50,high,No,Yes,"aspirin,metformin",30,E11.9,n/a,0,120,80,2020-02-14
+"ID- 650","Lee Sara",5,Male,"New York",23,99,high,No,EX-smoker,None,14,A00,,Unknown,120,80,2024-02-29
+"ID- 652","Jane Doe",6,Female,"New York",0,63,Normal,Unknown,EX-smoker,Unknown,14,E11.9,"BP high, needs recheck",1,120,80,2020-10-21
+"ID- 653","Michael Brown",5,Female,"New York",0,50,normal,No,No,"Aspirin; Metformin",30,A00,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-06-27
+"ID- 655","John Doe",25,Female,Boston,22,109,Unknown,Yes,No,"Lisinopril / Metformin",14,A00,"Follow up soon",1,111,60,2025-07-14
+"ID- 657","Michael Brown",51,Female,"Los Angeles",22,NULL,high,Unknown,EX-smoker,None,30,A00,,Unknown,136,62,2021-07-24
+"ID- 658","Smith Alice",42,Female,"New York",0,0,Unknown,Yes,No,"aspirin,metformin",30,I10,"Follow up soon",0,NULL,NULL,2023-04-05
+"ID- 659","Lee Sara",5,Male,"New York",22,NULL,high,Unknown,No,"aspirin,metformin",14,unknown,"Follow up soon",Unknown,120,80,2023-03-09
+"ID- 660","Jane Doe",25,Female,Boston,23,NULL,Normal,Unknown,No,Unknown,14,B20,"Patient feeling fine ðŸ™‚",1,120,80,2023-05-18
+"ID- 661","Jane Doe",5,Female,"New York",33,81,Normal,Unknown,Former,Unknown,14,I10,,1,120,80,2020-07-14
+"ID- 662","Smith Alice",25,Female,"Los Angeles",23,50,High,No,Yes,Unknown,14,Unknown,"BP high, needs recheck",Unknown,120,80,2020-09-12
+"ID- 663","Jane Doe",5,Female,Unknown,25,NULL,High,No,Unknown,"Aspirin; Metformin",0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-07-06
+"ID- 665","Lee Sara",42,Male,"Los Angeles",0,50,Unknown,Yes,No,"aspirin,metformin",14,B20,n/a,1,120,80,2020-04-16
+"ID- 666","Smith Alice",25,Female,Boston,23,118,high,Yes,Unknown,None,14,B20,"Follow up soon",Unknown,120,80,2020-01-23
+"ID- 668","Jane Doe",25,Female,"Los Angeles",22,NULL,normal,No,Former,None,30,Unknown,,Unknown,108,72,2022-11-18
+"ID- 669","Jane Doe",25,Female,"Los Angeles",0,80,high,No,EX-smoker,"aspirin,metformin",0,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-10-19
+"ID- 671","John Doe",31,Female,"Los Angeles",23,57,High,No,Unknown,None,30,unknown,"BP high, needs recheck",Unknown,120,80,2025-05-24
+"ID- 672","Smith Alice",5,Female,Unknown,19,0,high,Yes,Yes,"Lisinopril / Metformin",14,B20,"Follow up soon",0,NULL,NULL,2021-10-25
+"ID- 674","Lee Sara",54,Male,Boston,27,80,Normal,Unknown,EX-smoker,"Aspirin; Metformin",14,I10,"Follow up soon",Unknown,148,69,2022-02-19
+"ID- 675","Jane Doe",25,Female,Chicago,0,NULL,Normal,Yes,Unknown,None,30,unknown,,Unknown,120,80,2021-10-23
+"ID- 676","Michael Brown",78,Female,Chicago,0,80,normal,Unknown,Yes,"Aspirin; Metformin",14,A00,"Follow up soon",Unknown,95,67,2024-01-21
+"ID- 677","Smith Alice",25,Female,Chicago,30,80,Unknown,Yes,EX-smoker,None,0,Unknown,"Follow up soon",Unknown,120,80,2023-05-31
+"ID- 678","Michael Brown",25,Female,"Los Angeles",23,50,High,Unknown,Unknown,None,30,Unknown,"Follow up soon",Unknown,120,80,2020-11-11
+"ID- 679","Michael Brown",5,Female,Chicago,17,0,high,Unknown,No,"Aspirin; Metformin",14,Unknown,n/a,Unknown,NULL,NULL,2023-07-10
+"ID- 680","Jane Doe",56,Female,"New York",22,50,normal,Unknown,Unknown,"Lisinopril / Metformin",14,unknown,n/a,Unknown,120,80,2021-11-23
+"ID- 681","Jane Doe",0,Female,"New York",26,NULL,High,No,EX-smoker,None,0,A00,"BP high, needs recheck",Unknown,157,76,2023-05-07
+"ID- 682","Michael Brown",25,Female,Chicago,35,80,Unknown,No,Unknown,"Aspirin; Metformin",30,B20,n/a,1,120,80,2024-05-24
+"ID- 683","Michael Brown",99,Female,chicago,23,61,High,Unknown,Unknown,"Aspirin; Metformin",14,A00,"Follow up soon",0,108,80,2023-07-06
+"ID- 684","Lee Sara",20,Male,"Los Angeles",23,80,Normal,Unknown,Yes,Unknown,0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-05-29
+"ID- 685","Michael Brown",49,Female,"New York",23,0,normal,Yes,Unknown,Unknown,0,E11.9,"BP high, needs recheck",1,NULL,NULL,2021-03-31
+"ID- 686","Michael Brown",5,Female,"New York",22,50,normal,Yes,EX-smoker,"aspirin,metformin",14,B20,,0,120,80,2020-08-22
+"ID- 687","John Doe",5,Female,Chicago,23,0,Unknown,No,Unknown,"Lisinopril / Metformin",30,Unknown,,Unknown,NULL,NULL,2024-10-16
+"ID- 688","John Doe",25,Female,Unknown,23,74,normal,Unknown,Former,"Aspirin; Metformin",14,E11.9,"BP high, needs recheck",Unknown,120,80,2020-11-17
+"ID- 691","Jane Doe",71,Female,"New York",22,NULL,High,Unknown,No,"aspirin,metformin",14,B20,n/a,Unknown,144,86,2020-11-27
+"ID- 693","Smith Alice",5,Female,"New York",0,61,normal,Unknown,Unknown,None,14,A00,"Patient feeling fine ðŸ™‚",0,120,80,2023-05-03
+"ID- 694","Michael Brown",5,Female,Chicago,0,73,High,No,No,"Lisinopril / Metformin",14,B20,"Follow up soon",1,120,80,2025-09-02
+"ID- 696","Michael Brown",25,Female,"Los Angeles",27,NULL,normal,Unknown,No,"Lisinopril / Metformin",0,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2021-11-14
+"ID- 697","Lee Sara",52,Male,"New York",22,NULL,Normal,No,Yes,"aspirin,metformin",30,E11.9,,1,120,80,2020-01-24
+"ID- 698","Lee Sara",49,Male,Boston,22,80,Normal,Unknown,Unknown,"Lisinopril / Metformin",30,Unknown,"Follow up soon",0,131,60,2021-02-26
+"ID- 700","Michael Brown",25,Female,chicago,0,80,High,Yes,Former,"Lisinopril / Metformin",14,E11.9,,Unknown,120,80,2022-05-23
+"ID- 702","Lee Sara",25,Male,Boston,16,52,Unknown,Yes,Former,None,14,B20,n/a,Unknown,120,80,2023-02-08
+"ID- 703","Lee Sara",25,Male,Unknown,0,50,Normal,No,No,Unknown,14,A00,"BP high, needs recheck",0,134,92,2024-12-30
+"ID- 705","John Doe",14,Female,Chicago,23,80,Normal,Unknown,Former,"Lisinopril / Metformin",14,B20,"Follow up soon",0,120,80,2020-08-04
+"ID- 706","John Doe",5,Female,Boston,22,50,Normal,No,No,"Lisinopril / Metformin",0,Unknown,n/a,1,120,80,2022-11-18
+"ID- 707","Smith Alice",25,Female,"New York",16,0,Normal,Yes,No,"aspirin,metformin",30,B20,"BP high, needs recheck",Unknown,NULL,NULL,2023-10-21
+"ID- 708","Jane Doe",25,Female,Chicago,23,54,High,No,EX-smoker,"Aspirin; Metformin",0,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-11-27
+"ID- 709","Jane Doe",92,Female,Boston,20,80,Unknown,Unknown,Unknown,"aspirin,metformin",14,B20,"Follow up soon",Unknown,110,74,2021-12-30
+"ID- 710","John Doe",63,Female,chicago,22,NULL,High,No,Yes,"aspirin,metformin",14,I10,,Unknown,120,80,2024-04-11
+"ID- 712","Lee Sara",25,Male,"Los Angeles",20,80,high,Unknown,EX-smoker,None,30,I10,"Patient feeling fine ðŸ™‚",1,120,80,2021-10-31
+"ID- 713","Jane Doe",80,Female,"New York",23,80,Unknown,Yes,Yes,None,0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-09-17
+"ID- 714","Michael Brown",5,Female,"New York",23,50,Normal,Yes,Unknown,"Lisinopril / Metformin",0,E11.9,n/a,1,120,80,2021-07-06
+"ID- 716","Michael Brown",25,Female,"New York",23,0,normal,No,Former,Unknown,30,B20,,1,NULL,NULL,2025-05-29
+"ID- 717","Lee Sara",5,Male,Boston,18,80,High,Yes,No,"Lisinopril / Metformin",0,B20,n/a,0,120,80,2022-05-10
+"ID- 718","Jane Doe",89,Female,Chicago,22,50,high,Unknown,EX-smoker,"Lisinopril / Metformin",0,A00,"BP high, needs recheck",0,120,80,2025-09-01
+"ID- 720","Michael Brown",25,Female,Unknown,17,0,High,Unknown,EX-smoker,"Lisinopril / Metformin",14,Unknown,"Follow up soon",0,NULL,NULL,2022-06-22
+"ID- 721","Jane Doe",74,Female,"New York",33,0,high,Yes,Unknown,Unknown,14,A00,"Follow up soon",Unknown,NULL,NULL,2023-01-16
+"ID- 722","Lee Sara",89,Male,Unknown,23,NULL,Normal,Unknown,Yes,"Lisinopril / Metformin",14,B20,"BP high, needs recheck",1,120,80,2023-05-17
+"ID- 723","Smith Alice",55,Female,"New York",23,0,Normal,Unknown,EX-smoker,"aspirin,metformin",0,E11.9,"Follow up soon",1,NULL,NULL,2024-05-24
+"ID- 724","Lee Sara",5,Male,"New York",34,96,Normal,Unknown,Unknown,"aspirin,metformin",0,I10,"Follow up soon",0,103,75,2021-12-15
+"ID- 726","Lee Sara",14,Male,"New York",35,56,Normal,Yes,EX-smoker,"Aspirin; Metformin",14,B20,,Unknown,120,80,2024-05-08
+"ID- 727","Lee Sara",5,Male,chicago,23,80,Normal,Yes,Former,"Aspirin; Metformin",14,A00,"BP high, needs recheck",0,120,80,2024-04-29
+"ID- 728","Jane Doe",5,Female,Boston,23,50,high,Unknown,Yes,"Aspirin; Metformin",30,E11.9,,Unknown,97,66,2025-07-11
+"ID- 730","John Doe",2,Female,Chicago,0,0,High,Yes,No,Unknown,14,unknown,"Follow up soon",Unknown,NULL,NULL,2020-11-08
+"ID- 731","Michael Brown",5,Female,Boston,23,0,Unknown,Yes,Former,"Lisinopril / Metformin",30,E11.9,"Follow up soon",Unknown,NULL,NULL,2024-10-29
+"ID- 733","John Doe",25,Female,"Los Angeles",21,50,Unknown,Unknown,Unknown,"Aspirin; Metformin",14,B20,n/a,Unknown,120,80,2020-04-05
+"ID- 734","John Doe",25,Female,"New York",23,0,Normal,Unknown,Unknown,"Lisinopril / Metformin",30,A00,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-10-30
+"ID- 735","Jane Doe",25,Female,Boston,22,NULL,Normal,No,Yes,"aspirin,metformin",30,E11.9,,Unknown,120,80,2024-09-21
+"ID- 736","Michael Brown",25,Female,chicago,20,111,Unknown,No,Former,"Lisinopril / Metformin",30,B20,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-04-06
+"ID- 737","Lee Sara",25,Male,Boston,23,80,normal,Unknown,No,"aspirin,metformin",30,B20,"Follow up soon",Unknown,120,80,2021-05-21
+"ID- 738","Michael Brown",5,Female,"New York",23,NULL,Unknown,No,Yes,"Lisinopril / Metformin",14,A00,"Patient feeling fine ðŸ™‚",1,132,85,2023-04-26
+"ID- 739","Michael Brown",62,Female,"New York",23,NULL,normal,Yes,No,None,14,A00,n/a,1,119,75,2024-08-29
+"ID- 740","John Doe",5,Female,"New York",32,0,normal,No,EX-smoker,None,14,Unknown,,0,NULL,NULL,2024-10-14
+"ID- 743","Lee Sara",25,Male,Chicago,16,NULL,High,Unknown,EX-smoker,"Aspirin; Metformin",14,E11.9,"BP high, needs recheck",Unknown,133,97,2020-01-15
+"ID- 744","Jane Doe",25,Female,"New York",22,NULL,normal,Unknown,No,None,14,B20,"Follow up soon",Unknown,120,80,2022-02-12
+"ID- 746","Michael Brown",56,Female,"New York",22,NULL,High,Yes,Unknown,None,0,I10,"Patient feeling fine ðŸ™‚",1,115,93,2021-03-18
+"ID- 748","Jane Doe",92,Female,"Los Angeles",23,NULL,Normal,No,Unknown,Unknown,14,I10,n/a,1,120,80,2021-02-25
+"ID- 749","Michael Brown",71,Female,"New York",22,0,Normal,Yes,Unknown,"Aspirin; Metformin",14,unknown,n/a,0,NULL,NULL,2024-05-30
+"ID- 750","Smith Alice",5,Female,"Los Angeles",23,NULL,Unknown,Yes,Yes,"Aspirin; Metformin",14,A00,,Unknown,120,80,2021-09-14
+"ID- 751","Jane Doe",25,Female,"New York",0,80,high,Yes,No,Unknown,14,Unknown,"Patient feeling fine ðŸ™‚",0,143,84,2022-03-10
+"ID- 753","John Doe",62,Female,Unknown,23,80,High,Unknown,Unknown,"Lisinopril / Metformin",14,Unknown,,0,120,80,2024-08-06
+"ID- 755","Michael Brown",39,Female,"Los Angeles",0,NULL,high,No,Unknown,Unknown,14,I10,"Follow up soon",Unknown,120,80,2020-07-15
+"ID- 756","Lee Sara",3,Male,"New York",31,50,high,Yes,Former,"aspirin,metformin",14,unknown,,Unknown,120,80,2024-04-30
+"ID- 757","Lee Sara",97,Male,"New York",22,94,Unknown,Yes,Unknown,"Lisinopril / Metformin",14,unknown,"Follow up soon",Unknown,120,80,2022-04-30
+"ID- 758","Jane Doe",25,Female,chicago,22,0,normal,No,Yes,Unknown,14,E11.9,n/a,Unknown,NULL,NULL,2024-06-01
+"ID- 759","Jane Doe",5,Female,Unknown,0,0,Unknown,Yes,No,None,14,I10,"BP high, needs recheck",Unknown,NULL,NULL,2024-09-07
+"ID- 760","Michael Brown",25,Female,"New York",22,0,High,No,No,None,14,A00,n/a,Unknown,NULL,NULL,2025-02-23
+"ID- 761","Lee Sara",25,Male,Boston,26,0,High,No,EX-smoker,Unknown,30,Unknown,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2025-09-25
+"ID- 762","Smith Alice",5,Female,Unknown,0,85,Normal,Yes,No,"Aspirin; Metformin",30,I10,n/a,Unknown,120,80,2024-06-25
+"ID- 764","Michael Brown",88,Female,"New York",0,50,High,Yes,Unknown,"Lisinopril / Metformin",30,I10,"BP high, needs recheck",Unknown,120,80,2023-07-20
+"ID- 767","Smith Alice",5,Female,"Los Angeles",16,55,high,Yes,No,Unknown,30,E11.9,"Patient feeling fine ðŸ™‚",0,120,80,2024-07-11
+"ID- 768","Michael Brown",63,Female,"Los Angeles",22,80,normal,Unknown,Unknown,"aspirin,metformin",0,A00,"Follow up soon",1,128,78,2020-07-16
+"ID- 769","Lee Sara",5,Male,"Los Angeles",23,NULL,normal,No,Unknown,None,30,E11.9,,0,120,80,2020-11-10
+"ID- 770","Michael Brown",25,Female,Unknown,23,80,High,Unknown,EX-smoker,Unknown,30,A00,"BP high, needs recheck",Unknown,120,80,2025-07-09
+"ID- 771","Smith Alice",25,Female,Boston,0,50,High,Yes,Unknown,None,14,A00,n/a,Unknown,120,80,2023-02-28
+"ID- 773","Jane Doe",25,Female,"New York",23,104,Normal,Yes,EX-smoker,Unknown,0,E11.9,"BP high, needs recheck",Unknown,120,80,2020-12-16
+"ID- 774","Michael Brown",5,Female,Boston,22,80,high,Unknown,EX-smoker,Unknown,30,unknown,"BP high, needs recheck",Unknown,120,80,2022-07-09
+"ID- 777","Smith Alice",5,Female,"New York",23,80,Unknown,Yes,Unknown,None,0,Unknown,"Follow up soon",Unknown,120,80,2025-02-09
+"ID- 778","Lee Sara",25,Male,"New York",23,NULL,High,Yes,Unknown,"aspirin,metformin",30,unknown,"BP high, needs recheck",1,159,75,2024-03-08
+"ID- 781","Jane Doe",25,Female,"Los Angeles",0,50,Normal,Unknown,No,None,14,A00,,0,120,80,2020-09-03
+"ID- 782","Lee Sara",5,Male,Unknown,23,52,high,Yes,Former,"aspirin,metformin",14,B20,"BP high, needs recheck",Unknown,120,80,2025-08-07
+"ID- 783","Lee Sara",5,Male,chicago,23,NULL,High,Yes,No,"aspirin,metformin",30,unknown,n/a,Unknown,120,80,2023-04-05
+"ID- 784","Lee Sara",25,Male,Chicago,23,80,Normal,No,Yes,"Aspirin; Metformin",14,Unknown,,0,120,80,2023-01-30
+"ID- 785","Michael Brown",25,Female,"Los Angeles",0,50,high,No,Yes,"Aspirin; Metformin",14,E11.9,n/a,0,120,80,2024-02-14
+"ID- 787","Michael Brown",25,Female,Boston,23,62,Normal,Unknown,Unknown,None,14,Unknown,,0,133,92,2021-05-06
+"ID- 788","Lee Sara",19,Male,"New York",22,80,High,Yes,Unknown,None,0,Unknown,"Follow up soon",0,120,80,2024-01-21
+"ID- 789","Michael Brown",25,Female,"New York",22,101,Unknown,Unknown,No,None,30,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-07-21
+"ID- 790","Lee Sara",38,Male,"New York",19,67,Normal,Yes,No,"aspirin,metformin",14,E11.9,n/a,0,120,80,2023-11-05
+"ID- 792","John Doe",15,Female,chicago,22,109,High,No,EX-smoker,Unknown,14,A00,n/a,Unknown,120,80,2020-06-17
+"ID- 794","John Doe",33,Female,"New York",0,0,high,Unknown,Former,"aspirin,metformin",14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-09-21
+"ID- 795","Smith Alice",26,Female,"Los Angeles",22,NULL,normal,Unknown,Yes,"Lisinopril / Metformin",14,B20,"BP high, needs recheck",1,153,87,2022-02-07
+"ID- 796","Lee Sara",87,Male,Unknown,30,NULL,High,Yes,No,None,0,B20,"Follow up soon",0,120,80,2020-03-30
+"ID- 797","Smith Alice",5,Female,Boston,32,89,High,Yes,No,None,14,Unknown,,Unknown,120,80,2023-04-06
+"ID- 798","Lee Sara",5,Male,Unknown,0,50,normal,No,Unknown,Unknown,30,E11.9,"Patient feeling fine ðŸ™‚",Unknown,107,64,2024-10-24
+"ID- 799","Michael Brown",5,Female,"New York",22,80,Unknown,Unknown,Unknown,Unknown,0,I10,n/a,0,120,80,2023-06-30
+"ID- 800","Jane Doe",5,Female,"New York",22,NULL,Unknown,Unknown,Unknown,"Aspirin; Metformin",14,A00,"Patient feeling fine ðŸ™‚",1,120,80,2023-03-07
+"ID- 802","John Doe",5,Female,"New York",23,117,normal,Unknown,Unknown,Unknown,14,B20,,1,120,80,2025-03-07
+"ID- 805","Lee Sara",84,Male,"New York",22,80,high,Unknown,Yes,None,30,A00,,Unknown,120,80,2021-01-28
+"ID- 806","Michael Brown",9,Female,Boston,22,50,Normal,Yes,Former,None,30,E11.9,"Follow up soon",Unknown,120,80,2022-03-02
+"ID- 807","John Doe",25,Female,"New York",0,80,Unknown,No,No,None,14,B20,"Follow up soon",Unknown,115,87,2025-01-16
+"ID- 808","Jane Doe",5,Female,"Los Angeles",22,0,normal,Unknown,Yes,"aspirin,metformin",30,E11.9,"BP high, needs recheck",Unknown,NULL,NULL,2020-04-20
+"ID- 809","Michael Brown",25,Female,"New York",23,0,high,Yes,Former,"Lisinopril / Metformin",0,B20,"BP high, needs recheck",Unknown,NULL,NULL,2020-09-17
+"ID- 810","Lee Sara",25,Male,"New York",23,80,normal,No,Former,None,14,E11.9,n/a,Unknown,120,80,2023-06-25
+"ID- 812","Jane Doe",5,Female,"Los Angeles",22,92,normal,Yes,Former,"Aspirin; Metformin",0,I10,"Patient feeling fine ðŸ™‚",Unknown,105,93,2022-03-11
+"ID- 814","Smith Alice",25,Female,Chicago,29,50,high,Unknown,EX-smoker,"Aspirin; Metformin",14,E11.9,"Follow up soon",0,138,82,2025-07-10
+"ID- 815","Michael Brown",25,Female,Chicago,0,NULL,normal,Yes,Yes,"Lisinopril / Metformin",14,unknown,n/a,0,120,80,2020-05-17
+"ID- 817","Lee Sara",5,Male,chicago,0,80,normal,Yes,Unknown,Unknown,30,unknown,n/a,Unknown,92,92,2025-06-03
+"ID- 820","Smith Alice",25,Female,Unknown,19,50,normal,Yes,EX-smoker,"aspirin,metformin",14,Unknown,"Patient feeling fine ðŸ™‚",1,120,80,2025-05-22
+"ID- 822","Smith Alice",25,Female,Chicago,21,60,high,Unknown,EX-smoker,"Lisinopril / Metformin",0,I10,,Unknown,120,80,2022-05-12
+"ID- 823","Jane Doe",42,Female,Boston,22,50,Unknown,No,EX-smoker,"aspirin,metformin",14,A00,"Patient feeling fine ðŸ™‚",0,120,80,2023-03-18
+"ID- 824","Lee Sara",25,Male,Chicago,23,0,normal,Yes,Yes,None,30,I10,n/a,1,NULL,NULL,2022-04-04
+"ID- 826","Smith Alice",69,Female,Unknown,22,0,Normal,Yes,Yes,Unknown,30,Unknown,n/a,0,NULL,NULL,2022-04-07
+"ID- 827","Jane Doe",100,Female,"Los Angeles",0,NULL,High,Unknown,No,"aspirin,metformin",0,I10,"BP high, needs recheck",Unknown,120,80,2022-06-05
+"ID- 828","Smith Alice",5,Female,"Los Angeles",0,0,normal,No,Unknown,Unknown,0,unknown,"Follow up soon",0,NULL,NULL,2022-01-30
+"ID- 829","Jane Doe",5,Female,"Los Angeles",22,106,high,Unknown,No,Unknown,14,unknown,"Follow up soon",Unknown,120,80,2023-03-24
+"ID- 830","Jane Doe",5,Female,"New York",22,80,High,No,EX-smoker,None,14,E11.9,n/a,0,127,78,2022-05-20
+"ID- 833","Lee Sara",5,Male,"Los Angeles",22,NULL,normal,Unknown,EX-smoker,"Aspirin; Metformin",0,B20,"BP high, needs recheck",0,120,80,2022-02-25
+"ID- 835","Michael Brown",73,Female,"Los Angeles",23,0,High,Unknown,EX-smoker,"aspirin,metformin",30,B20,n/a,1,NULL,NULL,2024-04-14
+"ID- 836","Lee Sara",72,Male,"New York",15,60,Normal,No,EX-smoker,"Lisinopril / Metformin",30,I10,,0,120,80,2023-04-22
+"ID- 837","Jane Doe",5,Female,Unknown,0,NULL,high,No,Yes,"Lisinopril / Metformin",14,Unknown,,0,117,64,2020-02-23
+"ID- 840","Smith Alice",25,Female,Chicago,23,80,high,Unknown,Unknown,Unknown,0,A00,"BP high, needs recheck",1,120,80,2021-05-26
+"ID- 841","Jane Doe",46,Female,"New York",23,0,Unknown,No,No,"Aspirin; Metformin",14,B20,,1,NULL,NULL,2020-10-11
+"ID- 842","John Doe",35,Female,Chicago,23,NULL,Normal,Yes,EX-smoker,"Lisinopril / Metformin",14,Unknown,n/a,Unknown,130,85,2020-05-27
+"ID- 845","Smith Alice",5,Female,Chicago,32,80,normal,Yes,EX-smoker,"Aspirin; Metformin",30,A00,"Follow up soon",Unknown,120,80,2024-11-26
+"ID- 846","Lee Sara",84,Male,Boston,22,83,High,No,Unknown,"Aspirin; Metformin",0,unknown,,0,120,80,2022-01-12
+"ID- 847","Lee Sara",5,Male,"New York",22,NULL,high,No,Former,"aspirin,metformin",0,B20,"Patient feeling fine ðŸ™‚",Unknown,136,70,2022-07-28
+"ID- 848","Michael Brown",5,Female,"New York",17,NULL,Unknown,Unknown,Yes,None,0,Unknown,n/a,0,98,92,2021-10-27
+"ID- 849","Smith Alice",59,Female,Unknown,23,NULL,High,Yes,EX-smoker,"Lisinopril / Metformin",14,I10,"Patient feeling fine ðŸ™‚",0,152,81,2021-01-24
+"ID- 850","Smith Alice",5,Female,Chicago,23,NULL,Unknown,Unknown,Unknown,None,14,I10,"Patient feeling fine ðŸ™‚",0,120,80,2021-01-31
+"ID- 851","Smith Alice",5,Female,"Los Angeles",23,62,High,Yes,Yes,"aspirin,metformin",14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-08-09
+"ID- 852","Michael Brown",25,Female,"New York",22,0,normal,No,Unknown,None,14,Unknown,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2022-07-31
+"ID- 853","John Doe",25,Female,"Los Angeles",22,NULL,Normal,No,EX-smoker,None,14,A00,,1,118,63,2024-09-06
+"ID- 854","Lee Sara",39,Male,chicago,0,80,high,No,Yes,"Lisinopril / Metformin",14,Unknown,n/a,1,120,80,2023-08-14
+"ID- 858","Lee Sara",25,Male,Unknown,23,NULL,high,Yes,EX-smoker,"Aspirin; Metformin",14,I10,"Follow up soon",Unknown,99,60,2020-11-10
+"ID- 859","John Doe",5,Female,Chicago,0,0,normal,No,EX-smoker,"Lisinopril / Metformin",0,Unknown,,0,NULL,NULL,2022-04-04
+"ID- 861","Lee Sara",0,Male,"Los Angeles",22,80,Unknown,Yes,EX-smoker,"Aspirin; Metformin",14,unknown,"BP high, needs recheck",Unknown,106,78,2020-09-18
+"ID- 862","Jane Doe",25,Female,"Los Angeles",20,NULL,Unknown,Unknown,Unknown,"Aspirin; Metformin",0,A00,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-01-13
+"ID- 864","John Doe",5,Female,chicago,22,50,high,Unknown,Former,Unknown,30,B20,,Unknown,120,80,2022-07-23
+"ID- 865","Michael Brown",25,Female,"New York",23,0,high,Yes,EX-smoker,"Lisinopril / Metformin",14,E11.9,,Unknown,NULL,NULL,2022-05-19
+"ID- 866","Smith Alice",25,Female,chicago,23,0,High,No,Yes,"Aspirin; Metformin",14,unknown,"BP high, needs recheck",1,NULL,NULL,2022-01-04
+"ID- 867","Jane Doe",5,Female,"Los Angeles",0,80,Unknown,Unknown,Former,"Aspirin; Metformin",14,unknown,n/a,1,120,80,2022-07-05
+"ID- 870","Michael Brown",25,Female,"New York",17,80,High,Yes,No,"aspirin,metformin",14,E11.9,,0,120,80,2021-04-24
+"ID- 871","Jane Doe",5,Female,"New York",30,0,high,No,EX-smoker,"aspirin,metformin",30,B20,"Follow up soon",1,NULL,NULL,2020-06-09
+"ID- 872","Michael Brown",25,Female,"Los Angeles",0,80,high,Unknown,Former,"Aspirin; Metformin",30,B20,"BP high, needs recheck",Unknown,120,80,2024-03-29
+"ID- 873","Michael Brown",5,Female,"New York",0,83,normal,Yes,Former,"Lisinopril / Metformin",14,A00,"Follow up soon",Unknown,120,80,2020-04-21
+"ID- 874","Michael Brown",3,Female,"Los Angeles",22,80,high,No,Former,"Lisinopril / Metformin",14,unknown,n/a,Unknown,120,80,2023-03-19
+"ID- 875","Jane Doe",5,Female,"New York",19,80,Unknown,Unknown,Yes,"Lisinopril / Metformin",14,unknown,,Unknown,120,80,2020-03-25
+"ID- 876","Jane Doe",25,Female,"Los Angeles",22,0,normal,No,No,"aspirin,metformin",14,unknown,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2025-06-24
+"ID- 877","Lee Sara",25,Male,"New York",23,80,Unknown,Yes,Former,"aspirin,metformin",14,unknown,"BP high, needs recheck",1,120,80,2021-09-18
+"ID- 880","Smith Alice",18,Female,"New York",24,NULL,High,Unknown,Yes,"aspirin,metformin",14,unknown,"BP high, needs recheck",Unknown,120,80,2023-06-21
+"ID- 881","Michael Brown",5,Female,"New York",0,80,Normal,No,Unknown,"aspirin,metformin",14,I10,"BP high, needs recheck",1,120,80,2025-08-06
+"ID- 882","Jane Doe",5,Female,"Los Angeles",0,NULL,Normal,Yes,EX-smoker,"Aspirin; Metformin",14,B20,,1,115,81,2022-09-16
+"ID- 883","Lee Sara",45,Male,"New York",22,NULL,Normal,No,Yes,Unknown,30,A00,n/a,0,120,80,2021-04-01
+"ID- 884","Jane Doe",36,Female,Chicago,28,80,High,Yes,Unknown,Unknown,30,unknown,n/a,1,116,66,2023-09-13
+"ID- 886","Jane Doe",38,Female,"Los Angeles",27,119,Normal,Yes,Yes,"Lisinopril / Metformin",14,A00,,1,120,80,2022-11-14
+"ID- 887","Lee Sara",5,Male,"New York",0,50,Normal,Unknown,Unknown,"Lisinopril / Metformin",0,unknown,,1,120,80,2025-03-06
+"ID- 888","Jane Doe",100,Female,"New York",0,50,high,No,Unknown,Unknown,30,unknown,"BP high, needs recheck",1,120,80,2024-08-07
+"ID- 889","Smith Alice",5,Female,"Los Angeles",23,80,Normal,Yes,No,"aspirin,metformin",14,Unknown,"BP high, needs recheck",Unknown,120,80,2020-07-02
+"ID- 890","Smith Alice",25,Female,"New York",18,80,Unknown,Unknown,EX-smoker,"aspirin,metformin",30,B20,n/a,Unknown,120,80,2025-01-25
+"ID- 891","Jane Doe",5,Female,Unknown,23,0,High,Unknown,EX-smoker,"Aspirin; Metformin",0,Unknown,"BP high, needs recheck",0,NULL,NULL,2023-07-02
+"ID- 892","Michael Brown",32,Female,"New York",21,NULL,High,No,Former,None,30,Unknown,,1,120,80,2023-08-26
+"ID- 894","Michael Brown",25,Female,chicago,23,50,Normal,Yes,No,Unknown,0,Unknown,n/a,0,120,80,2025-06-18
+"ID- 896","Michael Brown",25,Female,"Los Angeles",23,80,High,No,Yes,"Aspirin; Metformin",0,E11.9,"Follow up soon",1,120,80,2021-08-07
+"ID- 898","Jane Doe",5,Female,"Los Angeles",0,80,Normal,Unknown,Yes,Unknown,30,Unknown,"Patient feeling fine ðŸ™‚",1,135,78,2025-01-04
+"ID- 901","Michael Brown",89,Female,"New York",23,80,High,No,Former,"Lisinopril / Metformin",14,B20,"Follow up soon",0,120,80,2023-01-03
+"ID- 902","Smith Alice",45,Female,"New York",23,0,normal,No,Unknown,None,0,I10,n/a,0,NULL,NULL,2024-05-19
+"ID- 905","Lee Sara",5,Male,"New York",22,0,high,No,EX-smoker,"Lisinopril / Metformin",0,E11.9,"Follow up soon",0,NULL,NULL,2020-12-06
+"ID- 906","John Doe",5,Female,chicago,0,0,Unknown,Unknown,Yes,"Lisinopril / Metformin",14,A00,"BP high, needs recheck",0,NULL,NULL,2023-03-24
+"ID- 907","Lee Sara",5,Male,"Los Angeles",35,80,Unknown,Unknown,Unknown,Unknown,30,A00,,1,120,80,2023-11-16
+"ID- 908","Lee Sara",25,Male,"New York",34,0,Normal,Unknown,EX-smoker,"Lisinopril / Metformin",30,A00,"Follow up soon",0,NULL,NULL,2023-08-24
+"ID- 909","Jane Doe",42,Female,Unknown,0,50,Normal,Unknown,No,"Lisinopril / Metformin",30,I10,"BP high, needs recheck",1,136,75,2025-05-07
+"ID- 910","Michael Brown",71,Female,"Los Angeles",22,0,Unknown,No,Former,"Lisinopril / Metformin",14,B20,"BP high, needs recheck",1,NULL,NULL,2024-03-11
+"ID- 911","Michael Brown",20,Female,Unknown,22,NULL,high,Unknown,Former,"aspirin,metformin",14,I10,"Patient feeling fine ðŸ™‚",0,120,78,2021-06-26
+"ID- 912","John Doe",25,Female,"New York",31,89,normal,Yes,No,"aspirin,metformin",14,Unknown,n/a,Unknown,120,80,2023-06-01
+"ID- 913","John Doe",5,Female,"New York",0,0,Unknown,No,Former,Unknown,30,A00,"Follow up soon",Unknown,NULL,NULL,2023-03-06
+"ID- 914","John Doe",87,Female,Boston,23,0,Unknown,Unknown,EX-smoker,None,14,A00,"BP high, needs recheck",0,NULL,NULL,2020-01-24
+"ID- 915","Lee Sara",5,Male,"New York",23,66,Unknown,No,Yes,Unknown,30,A00,"Follow up soon",0,120,80,2020-12-12
+"ID- 916","John Doe",56,Female,"New York",23,50,Normal,No,Former,None,30,A00,n/a,Unknown,120,80,2023-04-14
+"ID- 918","Smith Alice",25,Female,"New York",23,NULL,Normal,Unknown,Yes,None,14,E11.9,,1,120,80,2021-03-04
+"ID- 921","Michael Brown",5,Female,"New York",25,80,normal,Unknown,Yes,"Aspirin; Metformin",14,A00,"Follow up soon",0,120,80,2023-09-09
+"ID- 922","Jane Doe",25,Female,"New York",0,NULL,normal,Unknown,Unknown,"Aspirin; Metformin",14,B20,n/a,0,127,97,2021-04-02
+"ID- 923","Michael Brown",5,Female,"New York",31,NULL,High,No,Former,"Aspirin; Metformin",0,I10,n/a,Unknown,120,80,2025-08-30
+"ID- 924","Michael Brown",13,Female,"New York",22,NULL,normal,No,EX-smoker,"Aspirin; Metformin",30,Unknown,"Follow up soon",Unknown,120,80,2023-06-16
+"ID- 926","Michael Brown",33,Female,"Los Angeles",30,87,high,No,Unknown,Unknown,30,I10,"Patient feeling fine ðŸ™‚",1,120,80,2022-11-27
+"ID- 927","Smith Alice",25,Female,Unknown,23,0,Unknown,Yes,Yes,None,30,B20,,Unknown,NULL,NULL,2021-12-01
+"ID- 928","Jane Doe",3,Female,"New York",25,NULL,Normal,Yes,Unknown,None,0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-03-09
+"ID- 929","Lee Sara",5,Male,"New York",23,0,Unknown,Unknown,No,Unknown,14,Unknown,"Follow up soon",Unknown,NULL,NULL,2020-10-25
+"ID- 930","Jane Doe",25,Female,chicago,23,80,normal,Yes,No,"Lisinopril / Metformin",30,A00,"Follow up soon",0,157,79,2022-01-31
+"ID- 931","Michael Brown",5,Female,chicago,0,0,Unknown,No,EX-smoker,None,0,I10,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2020-04-10
+"ID- 932","Lee Sara",95,Male,"New York",0,72,High,No,Former,Unknown,0,A00,"Follow up soon",Unknown,120,80,2022-05-18
+"ID- 933","Jane Doe",25,Female,Chicago,17,0,normal,No,Yes,"Aspirin; Metformin",14,Unknown,,1,NULL,NULL,2020-04-09
+"ID- 934","Lee Sara",25,Male,Chicago,28,50,normal,Unknown,Former,"aspirin,metformin",0,B20,,Unknown,92,100,2020-12-24
+"ID- 937","Lee Sara",85,Male,chicago,22,0,normal,Unknown,Unknown,"Lisinopril / Metformin",14,A00,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2021-03-11
+"ID- 938","Smith Alice",5,Female,"New York",0,64,Normal,Unknown,Yes,"Aspirin; Metformin",30,E11.9,"Patient feeling fine ðŸ™‚",1,120,80,2024-09-27
+"ID- 939","Jane Doe",5,Female,"New York",22,NULL,normal,Yes,Former,"Lisinopril / Metformin",30,B20,n/a,0,120,80,2020-07-28
+"ID- 941","John Doe",5,Female,"Los Angeles",0,80,high,Yes,No,"Aspirin; Metformin",30,E11.9,n/a,Unknown,120,80,2020-02-11
+"ID- 943","John Doe",5,Female,"New York",22,50,High,Yes,No,"Aspirin; Metformin",0,B20,n/a,1,120,80,2020-02-15
+"ID- 944","Smith Alice",64,Female,"New York",23,0,Unknown,Yes,No,Unknown,14,A00,,0,NULL,NULL,2025-06-19
+"ID- 948","Jane Doe",25,Female,Chicago,22,80,High,No,Unknown,Unknown,14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-04-20
+"ID- 949","Lee Sara",25,Male,"New York",22,NULL,normal,No,Yes,None,0,Unknown,,0,120,80,2022-11-01
+"ID- 950","Jane Doe",80,Female,Chicago,23,0,high,No,EX-smoker,"Lisinopril / Metformin",0,unknown,n/a,Unknown,NULL,NULL,2023-11-05
+"ID- 952","Lee Sara",25,Male,"New York",0,91,high,Yes,Yes,None,0,Unknown,"Follow up soon",Unknown,151,97,2024-08-07
+"ID- 953","Smith Alice",5,Female,"New York",27,0,Normal,Yes,Former,Unknown,14,I10,,0,NULL,NULL,2022-10-27
+"ID- 954","Lee Sara",6,Male,Chicago,21,NULL,High,Yes,Unknown,"Lisinopril / Metformin",14,I10,,Unknown,121,84,2021-01-24
+"ID- 956","Jane Doe",25,Female,"New York",23,64,High,Yes,EX-smoker,"Aspirin; Metformin",30,B20,n/a,1,109,69,2021-05-14
+"ID- 957","Jane Doe",25,Female,"New York",26,NULL,High,Unknown,No,None,30,E11.9,n/a,Unknown,120,80,2020-12-28
+"ID- 958","Michael Brown",5,Female,"New York",16,NULL,Unknown,Unknown,No,"aspirin,metformin",30,I10,,Unknown,101,83,2022-11-15
+"ID- 959","Jane Doe",25,Female,"New York",35,NULL,High,No,EX-smoker,Unknown,14,Unknown,"Follow up soon",0,120,80,2020-07-03
+"ID- 960","John Doe",5,Female,"New York",0,50,Normal,Unknown,No,"Aspirin; Metformin",14,A00,,0,120,80,2023-05-07
+"ID- 961","Smith Alice",25,Female,Boston,23,74,Unknown,Unknown,Former,None,14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-07-08
+"ID- 962","Lee Sara",25,Male,Chicago,22,50,High,Yes,Unknown,"Lisinopril / Metformin",0,E11.9,n/a,1,120,80,2024-07-09
+"ID- 963","Lee Sara",77,Male,Boston,29,80,Unknown,Yes,Yes,"Aspirin; Metformin",14,I10,,0,120,80,2021-02-10
+"ID- 964","Lee Sara",5,Male,Unknown,22,NULL,normal,Unknown,Unknown,Unknown,14,I10,"Follow up soon",Unknown,120,80,2021-12-05
+"ID- 966","Smith Alice",25,Female,"Los Angeles",22,NULL,Normal,Unknown,Former,Unknown,0,B20,,Unknown,120,80,2021-09-07
+"ID- 968","Lee Sara",25,Male,"New York",0,0,high,Yes,Former,"aspirin,metformin",0,Unknown,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2020-10-08
+"ID- 969","Jane Doe",25,Female,"New York",22,80,Normal,Yes,Unknown,"Aspirin; Metformin",30,E11.9,"Patient feeling fine ðŸ™‚",0,120,80,2025-09-11
+"ID- 972","Michael Brown",25,Female,Boston,18,0,Unknown,Yes,Former,"aspirin,metformin",14,I10,"Follow up soon",1,NULL,NULL,2022-08-07
+"ID- 973","Michael Brown",5,Female,"Los Angeles",23,66,high,No,Yes,"aspirin,metformin",14,E11.9,"BP high, needs recheck",1,120,80,2025-01-15
+"ID- 976","Jane Doe",66,Female,Chicago,22,NULL,Unknown,No,Unknown,Unknown,14,Unknown,n/a,1,120,80,2021-07-08
+"ID- 977","Michael Brown",25,Female,chicago,23,50,high,No,EX-smoker,"aspirin,metformin",14,Unknown,n/a,0,97,80,2021-12-30
+"ID- 978","John Doe",42,Female,chicago,29,50,high,Yes,No,"Lisinopril / Metformin",30,E11.9,n/a,0,139,94,2021-07-15
+"ID- 979","Michael Brown",5,Female,Boston,0,80,Unknown,No,EX-smoker,"aspirin,metformin",14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,152,100,2023-11-08
+"ID- 980","Michael Brown",5,Female,"New York",0,75,Normal,Yes,Unknown,"Aspirin; Metformin",0,Unknown,"Follow up soon",0,124,91,2023-03-10
+"ID- 982","Smith Alice",5,Female,"New York",18,0,normal,Yes,Unknown,"Lisinopril / Metformin",14,I10,,0,NULL,NULL,2024-08-02
+"ID- 984","Lee Sara",5,Male,"New York",0,50,Normal,Unknown,Former,Unknown,14,E11.9,"BP high, needs recheck",1,120,80,2023-12-19
+"ID- 985","Jane Doe",28,Female,"Los Angeles",22,0,High,Unknown,Former,Unknown,30,unknown,"BP high, needs recheck",Unknown,NULL,NULL,2023-08-22
+"ID- 986","Jane Doe",25,Female,Unknown,0,NULL,High,Yes,Unknown,Unknown,14,B20,,Unknown,120,80,2020-03-01
+"ID- 987","Jane Doe",5,Female,"Los Angeles",23,50,Normal,No,No,"Lisinopril / Metformin",14,B20,,0,120,80,2020-01-03
+"ID- 988","Lee Sara",5,Male,"New York",30,0,Unknown,Yes,EX-smoker,"Aspirin; Metformin",14,E11.9,,0,NULL,NULL,2022-07-14
+"ID- 989","John Doe",5,Female,"Los Angeles",19,50,normal,Unknown,EX-smoker,"Aspirin; Metformin",30,B20,"Follow up soon",0,120,80,2024-08-12
+"ID- 993","Jane Doe",25,Female,chicago,22,80,High,No,Yes,Unknown,14,E11.9,"Follow up soon",Unknown,120,80,2020-01-31
+"ID- 994","Jane Doe",5,Female,"New York",22,80,high,No,Former,"aspirin,metformin",14,A00,"Follow up soon",0,120,80,2022-03-25
+"ID- 995","Lee Sara",25,Male,"New York",20,50,high,No,No,None,14,I10,,Unknown,120,80,2024-06-15
+"ID- 996","Michael Brown",36,Female,chicago,22,50,Unknown,Yes,No,None,14,I10,"BP high, needs recheck",Unknown,120,80,2024-04-17
+"ID- 999","Smith Alice",5,Female,chicago,19,NULL,Normal,Yes,No,"aspirin,metformin",14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-03-18
+"ID- 1002","Jane Doe",25,Female,"Los Angeles",32,0,Normal,Unknown,Unknown,"aspirin,metformin",14,A00,,0,NULL,NULL,2022-11-18
+"ID- 1003","John Doe",85,Female,chicago,22,80,high,Unknown,Unknown,None,0,unknown,"BP high, needs recheck",Unknown,138,97,2020-07-28
+"ID- 1004","Lee Sara",25,Male,"New York",0,108,normal,Yes,EX-smoker,Unknown,14,B20,n/a,1,120,80,2023-06-23
+"ID- 1005","Jane Doe",10,Female,"New York",0,NULL,Unknown,Yes,Former,"aspirin,metformin",14,Unknown,,Unknown,120,80,2020-11-07
+"ID- 1007","Smith Alice",5,Female,"New York",22,NULL,Unknown,No,EX-smoker,None,30,Unknown,"Follow up soon",1,120,80,2023-05-10
+"ID- 1008","Lee Sara",5,Male,Chicago,0,86,high,No,Unknown,"Aspirin; Metformin",14,A00,n/a,Unknown,120,80,2022-04-04
+"ID- 1009","Smith Alice",25,Female,"New York",22,0,high,Yes,Former,None,0,E11.9,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2024-02-11
+"ID- 1011","Lee Sara",25,Male,"Los Angeles",23,80,High,No,Unknown,"aspirin,metformin",14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2021-12-12
+"ID- 1012","John Doe",5,Female,chicago,0,50,Unknown,Unknown,Yes,Unknown,30,I10,n/a,1,133,67,2022-07-11
+"ID- 1013","Lee Sara",89,Male,"Los Angeles",30,80,high,No,Unknown,None,0,I10,,Unknown,129,72,2022-01-13
+"ID- 1014","Michael Brown",25,Female,"Los Angeles",23,50,Unknown,Unknown,EX-smoker,Unknown,0,A00,,0,120,80,2024-05-30
+"ID- 1016","John Doe",73,Female,Unknown,0,80,normal,Yes,No,"Lisinopril / Metformin",14,E11.9,"BP high, needs recheck",1,120,80,2025-01-04
+"ID- 1018","Lee Sara",5,Male,Chicago,23,80,high,Unknown,Unknown,"aspirin,metformin",0,E11.9,"BP high, needs recheck",0,120,80,2025-08-24
+"ID- 1019","Michael Brown",5,Female,"New York",0,50,Unknown,No,No,Unknown,0,B20,"BP high, needs recheck",0,120,80,2021-06-18
+"ID- 1020","Michael Brown",5,Female,"New York",23,0,normal,Yes,Yes,"aspirin,metformin",0,A00,,Unknown,NULL,NULL,2023-11-25
+"ID- 1022","Smith Alice",25,Female,"New York",23,NULL,Normal,No,Unknown,"Lisinopril / Metformin",14,unknown,"Follow up soon",0,120,80,2024-11-23
+"ID- 1024","Jane Doe",25,Female,"New York",32,50,normal,Yes,Former,"Aspirin; Metformin",14,I10,,0,120,80,2020-12-03
+"ID- 1025","John Doe",25,Female,"Los Angeles",0,50,High,No,EX-smoker,"aspirin,metformin",0,unknown,"BP high, needs recheck",1,120,80,2025-04-22
+"ID- 1026","John Doe",25,Female,"New York",23,0,Unknown,Unknown,Unknown,Unknown,14,B20,"Follow up soon",0,NULL,NULL,2023-09-18
+"ID- 1028","Lee Sara",53,Male,chicago,23,0,Unknown,Yes,Yes,"Lisinopril / Metformin",0,unknown,,Unknown,NULL,NULL,2020-01-28
+"ID- 1029","Lee Sara",25,Male,"Los Angeles",24,93,Normal,Unknown,Former,"aspirin,metformin",14,I10,"BP high, needs recheck",0,120,80,2025-07-02
+"ID- 1030","John Doe",25,Female,"Los Angeles",0,50,normal,Unknown,No,"Aspirin; Metformin",14,B20,"Patient feeling fine ðŸ™‚",1,120,80,2022-07-28
+"ID- 1031","Michael Brown",25,Female,"New York",23,NULL,High,No,Unknown,"Aspirin; Metformin",14,E11.9,"Follow up soon",1,120,80,2020-06-01
+"ID- 1033","Jane Doe",5,Female,Chicago,16,80,high,No,Unknown,"Aspirin; Metformin",30,B20,"Patient feeling fine ðŸ™‚",0,128,97,2020-06-29
+"ID- 1034","Jane Doe",88,Female,"New York",22,NULL,High,Yes,Unknown,None,30,I10,"Patient feeling fine ðŸ™‚",0,120,80,2020-08-03
+"ID- 1035","Jane Doe",47,Female,"New York",23,0,normal,No,Former,"Aspirin; Metformin",14,B20,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2024-12-29
+"ID- 1036","Lee Sara",6,Male,"New York",0,50,high,No,EX-smoker,Unknown,14,E11.9,"Follow up soon",1,131,79,2020-07-06
+"ID- 1037","Lee Sara",25,Male,"New York",28,0,Unknown,No,No,Unknown,30,A00,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2023-05-25
+"ID- 1038","Smith Alice",5,Female,"New York",23,89,Normal,No,No,Unknown,14,B20,n/a,Unknown,148,97,2023-08-19
+"ID- 1039","Lee Sara",58,Male,"New York",22,0,high,Unknown,Unknown,"aspirin,metformin",14,unknown,"Follow up soon",0,NULL,NULL,2024-02-16
+"ID- 1041","Lee Sara",13,Male,Chicago,23,80,Normal,No,Yes,"Lisinopril / Metformin",14,unknown,"Patient feeling fine ðŸ™‚",Unknown,109,64,2021-09-22
+"ID- 1042","Lee Sara",5,Male,"Los Angeles",20,NULL,high,No,No,"Aspirin; Metformin",30,E11.9,n/a,1,120,80,2023-09-30
+"ID- 1043","Smith Alice",5,Female,"New York",30,NULL,high,Unknown,Former,"Aspirin; Metformin",14,A00,,1,120,80,2023-12-09
+"ID- 1045","John Doe",25,Female,"New York",0,0,High,Unknown,Yes,None,14,Unknown,n/a,Unknown,NULL,NULL,2022-01-08
+"ID- 1047","Jane Doe",5,Female,"New York",23,0,high,Yes,Unknown,"Aspirin; Metformin",0,I10,"Follow up soon",Unknown,NULL,NULL,2022-04-14
+"ID- 1048","Jane Doe",5,Female,"New York",0,58,high,No,EX-smoker,None,30,A00,"Follow up soon",Unknown,120,80,2024-08-22
+"ID- 1050","Smith Alice",81,Female,"New York",22,50,normal,Yes,Unknown,"Aspirin; Metformin",0,Unknown,"Follow up soon",Unknown,120,80,2023-05-29
+"ID- 1051","John Doe",25,Female,Chicago,28,50,high,Unknown,Unknown,"aspirin,metformin",30,I10,"Follow up soon",0,120,80,2021-06-18
+"ID- 1052","Lee Sara",99,Male,Unknown,22,80,normal,Yes,Former,"aspirin,metformin",30,E11.9,"Follow up soon",Unknown,139,88,2025-04-19
+"ID- 1055","Lee Sara",5,Male,chicago,23,50,High,Unknown,Former,None,0,I10,n/a,0,139,75,2025-08-16
+"ID- 1056","John Doe",5,Female,"Los Angeles",0,80,high,No,EX-smoker,"aspirin,metformin",30,B20,"Patient feeling fine ðŸ™‚",1,120,80,2023-06-30
+"ID- 1057","Jane Doe",33,Female,Boston,22,50,high,No,Former,"Lisinopril / Metformin",30,unknown,,0,120,80,2022-11-08
+"ID- 1058","Michael Brown",25,Female,"New York",23,80,high,No,Yes,"Lisinopril / Metformin",0,E11.9,"Patient feeling fine ðŸ™‚",0,120,80,2024-03-21
+"ID- 1059","Lee Sara",5,Male,"Los Angeles",0,NULL,normal,No,No,"Aspirin; Metformin",0,I10,"Follow up soon",Unknown,120,80,2024-05-26
+"ID- 1060","Smith Alice",25,Female,"New York",22,NULL,High,Unknown,No,Unknown,14,Unknown,,1,120,80,2022-11-08
+"ID- 1061","Lee Sara",25,Male,"Los Angeles",0,50,Normal,Unknown,Yes,Unknown,30,I10,"BP high, needs recheck",1,120,80,2024-04-15
+"ID- 1062","Michael Brown",86,Female,Boston,23,80,Unknown,No,No,"aspirin,metformin",30,unknown,n/a,0,97,64,2024-01-23
+"ID- 1063","Michael Brown",25,Female,Chicago,23,0,Normal,Yes,Former,"aspirin,metformin",30,A00,n/a,1,NULL,NULL,2022-05-06
+"ID- 1066","Lee Sara",25,Male,"New York",0,NULL,Unknown,Unknown,EX-smoker,"Aspirin; Metformin",14,E11.9,"Follow up soon",Unknown,120,80,2021-03-13
+"ID- 1067","Smith Alice",25,Female,"New York",22,NULL,High,Unknown,Former,"Aspirin; Metformin",30,I10,"Follow up soon",1,120,80,2020-09-30
+"ID- 1068","Jane Doe",95,Female,Chicago,23,110,high,No,No,Unknown,14,B20,n/a,0,120,80,2022-06-04
+"ID- 1069","Michael Brown",63,Female,Boston,30,50,Unknown,Unknown,EX-smoker,"aspirin,metformin",14,Unknown,,0,120,80,2020-04-27
+"ID- 1072","Jane Doe",25,Female,"New York",23,0,Unknown,No,Unknown,None,0,B20,"BP high, needs recheck",Unknown,NULL,NULL,2022-09-07
+"ID- 1074","Lee Sara",5,Male,"New York",30,80,Normal,Yes,Unknown,Unknown,0,E11.9,"BP high, needs recheck",Unknown,120,80,2024-11-03
+"ID- 1075","Michael Brown",25,Female,"Los Angeles",23,62,Normal,Yes,EX-smoker,"Lisinopril / Metformin",30,E11.9,"Follow up soon",Unknown,120,80,2021-09-08
+"ID- 1077","Jane Doe",22,Female,chicago,0,80,Unknown,Unknown,Former,"aspirin,metformin",30,B20,,0,120,80,2023-06-28
+"ID- 1078","Lee Sara",25,Male,"New York",0,109,normal,Yes,Yes,"Aspirin; Metformin",14,E11.9,n/a,Unknown,120,80,2023-01-08
+"ID- 1079","Michael Brown",11,Female,Unknown,23,114,Normal,Unknown,Yes,"Aspirin; Metformin",0,Unknown,"Follow up soon",1,120,80,2024-04-19
+"ID- 1080","Michael Brown",25,Female,Chicago,23,NULL,normal,Unknown,EX-smoker,Unknown,14,Unknown,"Follow up soon",0,120,80,2024-03-23
+"ID- 1081","Lee Sara",13,Male,"New York",17,0,normal,No,Unknown,Unknown,30,unknown,,0,NULL,NULL,2020-01-29
+"ID- 1082","Smith Alice",5,Female,"New York",23,56,normal,No,No,None,30,I10,,0,120,80,2021-06-11
+"ID- 1085","Smith Alice",25,Female,"New York",23,50,Unknown,Unknown,No,Unknown,14,E11.9,n/a,1,120,80,2022-03-18
+"ID- 1087","Lee Sara",5,Male,"New York",22,0,Normal,No,Unknown,"Lisinopril / Metformin",30,Unknown,n/a,Unknown,NULL,NULL,2022-01-16
+"ID- 1089","John Doe",5,Female,Chicago,0,0,high,No,Unknown,Unknown,14,Unknown,n/a,1,NULL,NULL,2022-01-18
+"ID- 1093","Lee Sara",25,Male,"New York",22,0,normal,No,Former,"aspirin,metformin",14,A00,,0,NULL,NULL,2022-05-22
+"ID- 1094","Lee Sara",81,Male,chicago,32,112,high,No,Yes,"Aspirin; Metformin",14,unknown,"Follow up soon",1,120,80,2025-04-25
+"ID- 1096","Jane Doe",78,Female,chicago,23,0,normal,No,Unknown,"Aspirin; Metformin",0,I10,"Follow up soon",Unknown,NULL,NULL,2025-04-13
+"ID- 1098","Michael Brown",5,Female,Boston,31,50,normal,No,Unknown,"Aspirin; Metformin",14,I10,n/a,Unknown,120,80,2024-06-27
+"ID- 1101","Michael Brown",15,Female,Boston,21,0,Unknown,Yes,Former,"aspirin,metformin",0,unknown,"BP high, needs recheck",0,NULL,NULL,2022-09-07
+"ID- 1102","Michael Brown",5,Female,chicago,23,0,Unknown,No,Unknown,"Aspirin; Metformin",30,Unknown,,0,NULL,NULL,2024-11-18
+"ID- 1103","Jane Doe",5,Female,"New York",0,0,Unknown,Unknown,EX-smoker,"Lisinopril / Metformin",30,E11.9,n/a,1,NULL,NULL,2025-03-25
+"ID- 1104","Michael Brown",5,Female,"Los Angeles",22,NULL,Unknown,No,No,None,14,A00,"Follow up soon",1,120,80,2020-02-26
+"ID- 1106","Smith Alice",26,Female,Chicago,0,94,High,Yes,No,"aspirin,metformin",14,unknown,"BP high, needs recheck",1,120,80,2021-07-10
+"ID- 1107","John Doe",5,Female,"New York",23,0,normal,Yes,Former,"aspirin,metformin",0,A00,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2024-01-08
+"ID- 1108","Smith Alice",25,Female,"Los Angeles",0,NULL,normal,Yes,Unknown,Unknown,30,B20,,0,120,80,2021-04-25
+"ID- 1109","Jane Doe",5,Female,"New York",27,50,Normal,Unknown,Unknown,"Lisinopril / Metformin",0,B20,"Follow up soon",0,120,80,2021-12-22
+"ID- 1110","Jane Doe",25,Female,"New York",23,50,normal,Unknown,No,Unknown,14,B20,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-02-23
+"ID- 1112","Jane Doe",25,Female,Boston,22,67,High,Yes,Former,Unknown,0,unknown,n/a,0,120,80,2021-11-03
+"ID- 1114","Jane Doe",83,Female,"New York",23,0,High,No,Yes,"Lisinopril / Metformin",0,I10,n/a,Unknown,NULL,NULL,2023-04-10
+"ID- 1115","John Doe",5,Female,chicago,23,NULL,Normal,Yes,EX-smoker,"aspirin,metformin",30,E11.9,"Follow up soon",Unknown,120,80,2023-12-16
+"ID- 1116","Smith Alice",61,Female,chicago,23,79,Unknown,Yes,EX-smoker,Unknown,0,E11.9,,1,137,66,2023-12-21
+"ID- 1118","Michael Brown",55,Female,Boston,24,50,Normal,Unknown,Former,"aspirin,metformin",14,I10,n/a,1,120,80,2023-05-03
+"ID- 1120","Jane Doe",5,Female,"New York",22,70,high,Unknown,Former,"Aspirin; Metformin",14,unknown,,Unknown,120,80,2024-02-20
+"ID- 1122","John Doe",25,Female,chicago,23,50,Unknown,Unknown,Yes,None,30,A00,"Follow up soon",0,120,80,2022-04-29
+"ID- 1125","Smith Alice",5,Female,"New York",0,80,Unknown,No,No,"Lisinopril / Metformin",14,B20,"BP high, needs recheck",0,120,80,2021-05-22
+"ID- 1127","Michael Brown",74,Female,chicago,23,80,normal,Unknown,EX-smoker,None,14,unknown,"Patient feeling fine ðŸ™‚",Unknown,120,80,2021-03-10
+"ID- 1129","Lee Sara",5,Male,"New York",23,NULL,normal,Yes,EX-smoker,"aspirin,metformin",14,A00,n/a,1,128,85,2023-06-03
+"ID- 1130","Jane Doe",25,Female,"Los Angeles",33,80,high,Yes,EX-smoker,"aspirin,metformin",14,I10,"Follow up soon",Unknown,120,80,2023-12-12
+"ID- 1131","Jane Doe",5,Female,"New York",0,80,Unknown,Unknown,Former,Unknown,14,E11.9,"Follow up soon",Unknown,103,80,2024-11-12
+"ID- 1132","John Doe",5,Female,Chicago,22,0,Normal,No,Former,"Lisinopril / Metformin",14,I10,n/a,Unknown,NULL,NULL,2024-09-03
+"ID- 1133","John Doe",5,Female,"New York",29,0,Unknown,Unknown,Former,"Aspirin; Metformin",30,I10,"BP high, needs recheck",0,NULL,NULL,2021-12-09
+"ID- 1134","Smith Alice",52,Female,"Los Angeles",17,NULL,Unknown,Unknown,Yes,Unknown,0,E11.9,"Patient feeling fine ðŸ™‚",Unknown,140,98,2023-12-23
+"ID- 1135","Jane Doe",5,Female,"New York",23,NULL,High,No,EX-smoker,Unknown,14,Unknown,n/a,0,120,80,2023-02-12
+"ID- 1136","Lee Sara",5,Male,"Los Angeles",22,105,normal,No,Unknown,"Aspirin; Metformin",0,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2021-04-22
+"ID- 1137","Lee Sara",15,Male,"Los Angeles",0,NULL,Normal,Unknown,Former,"Lisinopril / Metformin",14,E11.9,"BP high, needs recheck",1,135,84,2024-02-27
+"ID- 1139","John Doe",5,Female,"New York",22,0,high,Yes,No,"Lisinopril / Metformin",30,I10,"Follow up soon",1,NULL,NULL,2022-05-06
+"ID- 1141","John Doe",69,Female,Chicago,20,NULL,High,No,No,"Lisinopril / Metformin",14,unknown,n/a,Unknown,120,80,2025-01-16
+"ID- 1142","Jane Doe",5,Female,"New York",23,80,High,Yes,EX-smoker,Unknown,14,E11.9,,1,120,80,2024-03-08
+"ID- 1143","Lee Sara",82,Male,"New York",32,NULL,Unknown,No,EX-smoker,None,14,E11.9,"Follow up soon",Unknown,120,80,2024-05-13
+"ID- 1144","Michael Brown",25,Female,"New York",22,0,high,Unknown,No,None,30,B20,"BP high, needs recheck",1,NULL,NULL,2022-02-15
+"ID- 1146","John Doe",25,Female,chicago,23,50,high,Yes,Former,Unknown,14,A00,"Follow up soon",Unknown,120,80,2023-07-03
+"ID- 1147","Michael Brown",5,Female,"New York",0,50,Normal,Unknown,No,"aspirin,metformin",14,I10,,0,120,80,2022-11-25
+"ID- 1148","Jane Doe",70,Female,"New York",0,50,normal,Unknown,Former,"Lisinopril / Metformin",14,A00,"Follow up soon",1,120,80,2024-05-04
+"ID- 1149","Michael Brown",18,Female,Boston,0,55,Unknown,No,Unknown,"Lisinopril / Metformin",14,I10,"Follow up soon",Unknown,120,80,2020-01-10
+"ID- 1150","Michael Brown",25,Female,"New York",23,80,high,Yes,Unknown,"aspirin,metformin",14,Unknown,n/a,1,120,80,2024-07-29
+"ID- 1152","John Doe",5,Female,"New York",17,50,Normal,Unknown,Unknown,"aspirin,metformin",0,unknown,"Follow up soon",1,120,80,2022-03-23
+"ID- 1153","Lee Sara",35,Male,"New York",22,80,normal,Unknown,Unknown,"Aspirin; Metformin",14,unknown,"Follow up soon",Unknown,120,80,2020-06-15
+"ID- 1154","Lee Sara",24,Male,"Los Angeles",18,0,normal,No,Unknown,"Aspirin; Metformin",14,A00,"BP high, needs recheck",1,NULL,NULL,2024-08-07
+"ID- 1155","Michael Brown",25,Female,"Los Angeles",22,0,High,No,No,"Lisinopril / Metformin",30,unknown,,1,NULL,NULL,2021-12-08
+"ID- 1157","Smith Alice",5,Female,Chicago,28,NULL,high,Yes,Unknown,None,30,E11.9,"BP high, needs recheck",1,120,80,2023-07-27
+"ID- 1159","Smith Alice",5,Female,Unknown,0,80,normal,No,Yes,None,0,E11.9,"Patient feeling fine ðŸ™‚",Unknown,92,65,2022-05-21
+"ID- 1161","Lee Sara",1,Male,"New York",22,NULL,normal,Yes,EX-smoker,None,30,A00,n/a,0,120,80,2023-03-09
+"ID- 1162","Lee Sara",84,Male,"New York",22,80,High,Unknown,Yes,None,14,E11.9,"Follow up soon",Unknown,98,88,2021-12-08
+"ID- 1163","Jane Doe",5,Female,Boston,23,0,Normal,No,Yes,"Lisinopril / Metformin",14,Unknown,"Follow up soon",Unknown,NULL,NULL,2025-07-10
+"ID- 1164","John Doe",18,Female,"New York",22,118,Unknown,Yes,Former,Unknown,30,A00,n/a,Unknown,130,82,2021-05-22
+"ID- 1165","Jane Doe",25,Female,Unknown,24,97,high,Unknown,Yes,"Lisinopril / Metformin",14,unknown,"Follow up soon",0,120,80,2021-11-14
+"ID- 1166","Michael Brown",5,Female,chicago,15,NULL,Normal,Unknown,Yes,"Lisinopril / Metformin",14,E11.9,"Patient feeling fine ðŸ™‚",0,94,62,2022-04-27
+"ID- 1168","Smith Alice",5,Female,"New York",32,NULL,Unknown,No,EX-smoker,"aspirin,metformin",30,A00,,Unknown,120,80,2022-03-31
+"ID- 1169","Smith Alice",25,Female,"Los Angeles",22,0,normal,No,Yes,"aspirin,metformin",14,unknown,n/a,0,NULL,NULL,2023-12-15
+"ID- 1170","Michael Brown",25,Female,chicago,22,NULL,high,No,Former,"Aspirin; Metformin",30,Unknown,"Follow up soon",1,120,80,2023-08-11
+"ID- 1171","Michael Brown",89,Female,"New York",23,50,normal,Yes,EX-smoker,Unknown,14,unknown,"Follow up soon",1,120,80,2021-04-21
+"ID- 1172","Michael Brown",87,Female,Chicago,23,80,Unknown,Unknown,Unknown,Unknown,30,E11.9,,1,120,80,2023-11-03
+"ID- 1173","Lee Sara",5,Male,Unknown,0,97,Normal,Unknown,Unknown,"Aspirin; Metformin",30,E11.9,"BP high, needs recheck",Unknown,119,92,2022-05-28
+"ID- 1175","Lee Sara",25,Male,"New York",0,NULL,high,Unknown,No,Unknown,14,unknown,"Follow up soon",1,147,95,2021-05-07
+"ID- 1176","Jane Doe",25,Female,"New York",23,80,Unknown,No,No,"Lisinopril / Metformin",14,unknown,"Patient feeling fine ðŸ™‚",Unknown,106,65,2022-02-23
+"ID- 1177","Michael Brown",60,Female,"Los Angeles",23,100,Unknown,Unknown,No,Unknown,30,Unknown,,Unknown,120,80,2022-07-09
+"ID- 1178","Smith Alice",5,Female,"Los Angeles",23,NULL,high,No,Unknown,"Lisinopril / Metformin",14,B20,,1,120,80,2024-12-22
+"ID- 1179","John Doe",5,Female,"New York",23,NULL,normal,No,EX-smoker,Unknown,14,unknown,"Follow up soon",1,120,80,2025-03-20
+"ID- 1180","Lee Sara",25,Male,"New York",0,95,high,No,Unknown,Unknown,0,unknown,"Follow up soon",Unknown,120,80,2021-04-16
+"ID- 1181","Michael Brown",5,Female,"New York",0,0,Normal,Unknown,EX-smoker,"aspirin,metformin",14,I10,"Follow up soon",0,NULL,NULL,2021-12-25
+"ID- 1182","Smith Alice",38,Female,Unknown,23,80,Normal,No,Yes,Unknown,14,I10,,Unknown,120,80,2023-12-07
+"ID- 1185","Lee Sara",5,Male,"New York",22,80,high,Yes,No,None,14,A00,n/a,1,90,97,2020-12-30
+"ID- 1186","Jane Doe",15,Female,"New York",24,80,normal,Unknown,Unknown,Unknown,0,unknown,"Patient feeling fine ðŸ™‚",0,114,96,2020-04-21
+"ID- 1188","Smith Alice",31,Female,"Los Angeles",23,80,high,No,Unknown,Unknown,14,unknown,"BP high, needs recheck",1,120,80,2025-05-16
+"ID- 1189","Michael Brown",28,Female,chicago,34,NULL,High,Unknown,Yes,"Lisinopril / Metformin",14,Unknown,n/a,0,95,71,2020-08-28
+"ID- 1191","Michael Brown",25,Female,"New York",22,0,normal,Unknown,EX-smoker,"aspirin,metformin",30,unknown,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2021-12-30
+"ID- 1192","Michael Brown",5,Female,"Los Angeles",23,0,normal,No,EX-smoker,"aspirin,metformin",14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2022-12-14
+"ID- 1193","Jane Doe",5,Female,Boston,0,50,High,Unknown,Unknown,"Aspirin; Metformin",14,unknown,,1,120,80,2025-03-05
+"ID- 1194","Smith Alice",74,Female,"New York",23,80,High,Unknown,Former,Unknown,0,A00,"Patient feeling fine ðŸ™‚",Unknown,120,80,2021-12-05
+"ID- 1195","John Doe",25,Female,Boston,0,80,high,Yes,Yes,"aspirin,metformin",14,A00,,Unknown,153,85,2021-12-06
+"ID- 1196","Michael Brown",25,Female,"Los Angeles",20,NULL,high,No,Unknown,"Lisinopril / Metformin",30,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2022-07-19
+"ID- 1198","Michael Brown",73,Female,"New York",0,80,High,Unknown,Former,"Lisinopril / Metformin",30,Unknown,,Unknown,120,80,2023-01-09
+"ID- 1199","Smith Alice",51,Female,chicago,31,0,Unknown,Yes,Unknown,None,14,B20,,Unknown,NULL,NULL,2025-04-01
+"ID- 1201","John Doe",5,Female,"New York",23,0,High,Yes,Yes,"Lisinopril / Metformin",14,I10,n/a,Unknown,NULL,NULL,2025-01-29
+"ID- 1202","Smith Alice",25,Female,Unknown,22,0,normal,Yes,Unknown,"Aspirin; Metformin",30,E11.9,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2021-04-25
+"ID- 1203","Michael Brown",25,Female,"New York",23,0,High,Yes,Unknown,Unknown,14,I10,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2023-09-17
+"ID- 1204","Lee Sara",72,Male,"New York",19,53,Unknown,Unknown,Yes,None,30,E11.9,,0,120,80,2023-04-06
+"ID- 1205","John Doe",25,Female,"New York",20,50,normal,Unknown,Yes,Unknown,30,Unknown,n/a,Unknown,159,94,2020-05-22
+"ID- 1208","John Doe",84,Female,chicago,23,67,High,No,Unknown,"Aspirin; Metformin",14,unknown,,0,120,80,2020-06-06
+"ID- 1209","Jane Doe",25,Female,"Los Angeles",23,80,normal,No,Unknown,None,0,Unknown,"Follow up soon",1,120,80,2024-08-10
+"ID- 1210","Jane Doe",51,Female,Boston,0,NULL,high,Yes,Unknown,Unknown,14,unknown,n/a,Unknown,120,80,2023-01-09
+"ID- 1211","John Doe",25,Female,Unknown,22,96,high,Yes,Former,"aspirin,metformin",30,Unknown,n/a,Unknown,120,80,2022-08-07
+"ID- 1214","Smith Alice",25,Female,"Los Angeles",30,80,High,No,Former,"Aspirin; Metformin",14,I10,"BP high, needs recheck",Unknown,120,80,2024-01-17
+"ID- 1215","Smith Alice",90,Female,"New York",0,0,High,Unknown,Unknown,"Lisinopril / Metformin",0,I10,"BP high, needs recheck",Unknown,NULL,NULL,2025-02-26
+"ID- 1217","John Doe",5,Female,chicago,23,117,normal,Yes,Unknown,"Lisinopril / Metformin",0,A00,"BP high, needs recheck",Unknown,120,86,2023-04-14
+"ID- 1218","Lee Sara",25,Male,chicago,0,80,normal,No,Yes,None,0,unknown,"BP high, needs recheck",Unknown,120,80,2020-05-08
+"ID- 1219","John Doe",55,Female,Unknown,21,64,normal,Yes,Unknown,Unknown,30,unknown,,1,120,80,2020-02-28
+"ID- 1220","Michael Brown",35,Female,"New York",22,0,High,No,EX-smoker,"Lisinopril / Metformin",14,unknown,n/a,0,NULL,NULL,2024-08-23
+"ID- 1222","John Doe",25,Female,Boston,23,0,high,Yes,Yes,Unknown,14,unknown,,0,NULL,NULL,2022-01-23
+"ID- 1225","Michael Brown",5,Female,Chicago,22,111,High,Unknown,Unknown,"aspirin,metformin",14,A00,"BP high, needs recheck",Unknown,154,93,2025-01-12
+"ID- 1226","Smith Alice",36,Female,"New York",22,0,High,No,Yes,"Lisinopril / Metformin",14,unknown,n/a,Unknown,NULL,NULL,2024-07-28
+"ID- 1228","Michael Brown",75,Female,"New York",0,0,High,No,Unknown,"Aspirin; Metformin",30,E11.9,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2023-06-18
+"ID- 1229","Jane Doe",25,Female,chicago,22,NULL,normal,Unknown,Unknown,"aspirin,metformin",0,E11.9,,0,120,80,2022-11-15
+"ID- 1230","John Doe",24,Female,"New York",23,NULL,High,Unknown,Unknown,Unknown,14,A00,,Unknown,120,80,2023-02-21
+"ID- 1232","John Doe",25,Female,"Los Angeles",23,0,normal,Yes,Yes,"Lisinopril / Metformin",30,B20,n/a,1,NULL,NULL,2022-02-04
+"ID- 1233","John Doe",25,Female,"New York",0,80,normal,Unknown,EX-smoker,"aspirin,metformin",0,Unknown,n/a,0,120,80,2023-09-12
+"ID- 1234","Smith Alice",5,Female,"New York",0,0,Unknown,Yes,Unknown,"Lisinopril / Metformin",0,E11.9,"Follow up soon",1,NULL,NULL,2023-10-23
+"ID- 1235","Michael Brown",33,Female,"New York",22,80,Normal,Unknown,No,"Aspirin; Metformin",14,B20,"BP high, needs recheck",1,120,80,2023-03-17
+"ID- 1236","Smith Alice",58,Female,Chicago,22,110,High,Unknown,EX-smoker,"Lisinopril / Metformin",0,unknown,,Unknown,120,80,2023-02-07
+"ID- 1237","Jane Doe",5,Female,Chicago,22,80,Normal,Yes,Yes,"Lisinopril / Metformin",30,I10,n/a,Unknown,149,84,2023-06-22
+"ID- 1239","Lee Sara",5,Male,Boston,0,0,Unknown,Unknown,No,"Aspirin; Metformin",14,B20,"Follow up soon",1,NULL,NULL,2021-01-16
+"ID- 1241","Michael Brown",5,Female,Boston,22,0,high,Unknown,No,None,14,E11.9,"BP high, needs recheck",Unknown,NULL,NULL,2025-07-28
+"ID- 1242","Lee Sara",25,Male,"New York",22,0,Normal,Unknown,Unknown,"Aspirin; Metformin",14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2020-01-05
+"ID- 1243","Lee Sara",83,Male,"Los Angeles",18,0,high,Unknown,EX-smoker,Unknown,14,E11.9,,0,NULL,NULL,2023-08-22
+"ID- 1244","John Doe",14,Female,"New York",29,0,High,Yes,No,"aspirin,metformin",14,A00,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2022-04-09
+"ID- 1245","Smith Alice",13,Female,"New York",0,NULL,normal,Yes,EX-smoker,None,30,A00,,Unknown,120,80,2024-12-06
+"ID- 1246","John Doe",5,Female,"New York",23,0,high,No,Unknown,Unknown,0,I10,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2020-06-03
+"ID- 1247","Michael Brown",25,Female,"Los Angeles",28,0,high,Unknown,Unknown,None,14,Unknown,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2022-11-13
+"ID- 1248","Lee Sara",5,Male,Unknown,22,0,Normal,No,Yes,"aspirin,metformin",14,I10,n/a,1,NULL,NULL,2023-09-25
+"ID- 1250","Smith Alice",13,Female,"New York",17,67,Normal,Unknown,Yes,None,0,unknown,"BP high, needs recheck",Unknown,120,80,2023-03-19
+"ID- 1251","John Doe",5,Female,"New York",29,0,normal,No,No,Unknown,14,A00,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2024-08-21
+"ID- 1252","Smith Alice",25,Female,Unknown,23,118,Normal,No,No,"aspirin,metformin",14,I10,n/a,Unknown,120,80,2020-04-17
+"ID- 1253","Michael Brown",5,Female,"Los Angeles",25,NULL,high,Unknown,Yes,Unknown,14,I10,"BP high, needs recheck",Unknown,120,80,2021-09-30
+"ID- 1256","Jane Doe",5,Female,"Los Angeles",26,80,normal,Yes,No,"Lisinopril / Metformin",14,unknown,"Patient feeling fine ðŸ™‚",0,149,67,2024-01-12
+"ID- 1257","Michael Brown",25,Female,Unknown,23,50,high,Yes,Unknown,"aspirin,metformin",14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2024-10-26
+"ID- 1258","Lee Sara",5,Male,"New York",29,NULL,high,Unknown,Former,"aspirin,metformin",14,Unknown,n/a,Unknown,120,80,2020-04-24
+"ID- 1259","John Doe",3,Female,chicago,22,80,high,Unknown,EX-smoker,"Aspirin; Metformin",14,B20,"BP high, needs recheck",Unknown,120,80,2025-08-01
+"ID- 1260","Smith Alice",78,Female,"New York",22,50,high,No,Unknown,Unknown,0,Unknown,,Unknown,143,66,2020-07-02
+"ID- 1261","John Doe",20,Female,"Los Angeles",23,119,High,No,Former,"Aspirin; Metformin",14,E11.9,"BP high, needs recheck",Unknown,120,80,2020-04-12
+"ID- 1263","Michael Brown",25,Female,"New York",22,0,High,Unknown,EX-smoker,Unknown,14,B20,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2022-07-02
+"ID- 1264","Jane Doe",5,Female,"New York",22,50,High,Unknown,Unknown,Unknown,14,I10,"Patient feeling fine ðŸ™‚",0,120,80,2024-03-19
+"ID- 1265","Jane Doe",5,Female,chicago,0,NULL,High,Yes,No,"Aspirin; Metformin",14,I10,n/a,1,120,80,2020-03-14
+"ID- 1266","John Doe",5,Female,"New York",0,0,Normal,No,EX-smoker,Unknown,30,B20,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2024-07-28
+"ID- 1267","Smith Alice",85,Female,Boston,22,NULL,normal,Unknown,Former,Unknown,14,E11.9,,Unknown,149,64,2021-10-21
+"ID- 1269","Michael Brown",5,Female,"New York",22,80,normal,Unknown,EX-smoker,"Aspirin; Metformin",14,E11.9,"BP high, needs recheck",0,120,80,2020-05-24
+"ID- 1271","Lee Sara",5,Male,"New York",0,0,Unknown,Yes,Former,"aspirin,metformin",30,A00,"Follow up soon",1,NULL,NULL,2020-06-28
+"ID- 1272","Jane Doe",75,Female,chicago,22,NULL,High,No,Former,"aspirin,metformin",30,Unknown,"Follow up soon",1,153,67,2024-04-10
+"ID- 1273","Lee Sara",25,Male,"New York",22,120,High,No,Unknown,None,14,B20,n/a,Unknown,120,80,2025-05-07
+"ID- 1275","Michael Brown",5,Female,"Los Angeles",23,NULL,high,No,Former,"Lisinopril / Metformin",0,I10,n/a,1,120,80,2020-02-03
+"ID- 1277","Michael Brown",25,Female,Unknown,20,NULL,normal,Yes,Unknown,None,14,I10,,1,120,80,2020-03-25
+"ID- 1278","John Doe",5,Female,Unknown,0,50,high,No,No,Unknown,30,B20,"Follow up soon",1,120,80,2021-01-13
+"ID- 1279","Jane Doe",5,Female,"New York",22,50,Normal,Yes,EX-smoker,"Aspirin; Metformin",14,B20,,1,138,95,2023-05-12
+"ID- 1280","John Doe",40,Female,"Los Angeles",22,80,normal,Unknown,Unknown,"aspirin,metformin",30,Unknown,"Patient feeling fine ðŸ™‚",0,120,80,2024-07-07
+"ID- 1281","Michael Brown",5,Female,Boston,23,80,high,No,EX-smoker,"aspirin,metformin",30,A00,,0,120,80,2024-09-21
+"ID- 1282","Jane Doe",37,Female,"New York",19,NULL,High,No,Unknown,"Lisinopril / Metformin",0,I10,"Follow up soon",0,120,80,2020-05-02
+"ID- 1284","Jane Doe",75,Female,"Los Angeles",22,119,Unknown,Unknown,Unknown,None,14,E11.9,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-05-12
+"ID- 1286","John Doe",51,Female,chicago,23,50,normal,No,No,Unknown,30,unknown,n/a,0,120,80,2022-02-18
+"ID- 1288","Lee Sara",19,Male,"New York",28,80,High,Unknown,No,"aspirin,metformin",30,E11.9,n/a,Unknown,140,83,2021-06-24
+"ID- 1289","John Doe",5,Female,Unknown,22,101,Normal,Yes,Unknown,"Aspirin; Metformin",14,E11.9,,0,92,99,2021-10-09
+"ID- 1291","Lee Sara",91,Male,"Los Angeles",0,60,normal,No,EX-smoker,Unknown,0,B20,n/a,Unknown,120,80,2024-05-02
+"ID- 1293","Lee Sara",25,Male,"New York",23,0,High,Yes,EX-smoker,"Lisinopril / Metformin",14,Unknown,"Follow up soon",0,NULL,NULL,2021-07-20
+"ID- 1294","Michael Brown",25,Female,Boston,22,NULL,Unknown,Yes,Unknown,None,14,B20,,1,120,80,2022-02-13
+"ID- 1295","Jane Doe",73,Female,"Los Angeles",22,0,Normal,No,Yes,"Lisinopril / Metformin",30,A00,"Follow up soon",1,NULL,NULL,2023-08-16
+"ID- 1296","Lee Sara",5,Male,Boston,0,77,high,Unknown,Yes,"Aspirin; Metformin",14,E11.9,,0,120,80,2024-05-04
+"ID- 1297","Smith Alice",91,Female,Chicago,0,67,normal,No,No,"Aspirin; Metformin",14,A00,"Follow up soon",Unknown,108,96,2022-03-11
+"ID- 1298","Michael Brown",25,Female,Chicago,23,80,normal,No,Former,None,14,I10,,Unknown,120,80,2022-09-14
+"ID- 1299","Smith Alice",15,Female,Chicago,22,80,High,No,Yes,Unknown,14,A00,"Follow up soon",1,120,80,2024-09-22
+"ID- 1300","Michael Brown",89,Female,Unknown,0,0,Unknown,No,EX-smoker,"Aspirin; Metformin",30,A00,n/a,1,NULL,NULL,2020-06-09
+"ID- 1302","Jane Doe",25,Female,"Los Angeles",30,50,High,Unknown,Yes,"Lisinopril / Metformin",30,E11.9,"BP high, needs recheck",Unknown,120,80,2025-01-11
+"ID- 1303","Smith Alice",25,Female,Boston,34,0,Normal,Yes,EX-smoker,"aspirin,metformin",0,B20,"Follow up soon",0,NULL,NULL,2021-05-22
+"ID- 1304","John Doe",25,Female,"New York",21,0,Unknown,Unknown,Former,Unknown,30,E11.9,,1,NULL,NULL,2024-06-12
+"ID- 1307","Lee Sara",5,Male,Chicago,0,50,High,No,Former,None,14,Unknown,,1,120,80,2021-12-02
+"ID- 1308","Jane Doe",6,Female,"Los Angeles",24,50,Normal,Yes,Yes,None,14,Unknown,n/a,0,120,80,2024-07-03
+"ID- 1309","Michael Brown",5,Female,"Los Angeles",22,NULL,Normal,Unknown,No,"aspirin,metformin",14,I10,,1,120,80,2020-12-19
+"ID- 1311","Jane Doe",25,Female,"Los Angeles",23,0,high,No,Former,"aspirin,metformin",30,Unknown,n/a,Unknown,NULL,NULL,2020-07-22
+"ID- 1312","John Doe",5,Female,"Los Angeles",22,0,Unknown,No,No,Unknown,30,I10,n/a,1,NULL,NULL,2020-10-28
+"ID- 1313","Smith Alice",5,Female,Unknown,23,59,Normal,Unknown,Yes,"aspirin,metformin",30,A00,n/a,Unknown,95,60,2024-10-31
+"ID- 1315","Smith Alice",25,Female,"Los Angeles",0,80,normal,Yes,Unknown,None,0,A00,,Unknown,120,80,2020-03-07
+"ID- 1316","Lee Sara",25,Male,chicago,0,0,Unknown,Unknown,Unknown,"Lisinopril / Metformin",30,unknown,n/a,0,NULL,NULL,2022-04-06
+"ID- 1317","Smith Alice",60,Female,"New York",0,50,High,Yes,Former,None,30,Unknown,n/a,Unknown,152,61,2023-03-18
+"ID- 1318","John Doe",25,Female,"New York",0,0,Unknown,Unknown,Former,None,30,B20,n/a,0,NULL,NULL,2023-03-03
+"ID- 1319","Michael Brown",25,Female,"New York",0,80,Unknown,Unknown,No,None,0,Unknown,"Follow up soon",1,144,77,2022-07-16
+"ID- 1320","Smith Alice",25,Female,"New York",23,50,Unknown,Unknown,Former,Unknown,14,I10,"Follow up soon",1,120,80,2024-03-15
+"ID- 1321","Michael Brown",25,Female,Chicago,23,89,High,Unknown,Former,None,0,A00,"Patient feeling fine ðŸ™‚",0,120,80,2023-04-11
+"ID- 1322","Jane Doe",82,Female,"Los Angeles",0,119,High,No,No,Unknown,30,A00,"BP high, needs recheck",Unknown,120,80,2022-02-12
+"ID- 1323","John Doe",83,Female,"New York",23,50,Normal,Yes,Unknown,"aspirin,metformin",30,unknown,"Follow up soon",Unknown,120,80,2024-09-07
+"ID- 1324","Jane Doe",90,Female,"New York",23,80,Unknown,No,Yes,"Aspirin; Metformin",0,A00,n/a,Unknown,120,80,2025-07-30
+"ID- 1326","Jane Doe",25,Female,"Los Angeles",35,50,Unknown,Unknown,Unknown,None,30,Unknown,,0,120,80,2023-12-24
+"ID- 1328","Smith Alice",5,Female,"New York",23,80,Normal,Yes,No,None,14,A00,,1,120,80,2020-03-09
+"ID- 1329","Jane Doe",5,Female,"New York",0,NULL,High,Unknown,Unknown,Unknown,30,B20,n/a,1,120,80,2025-01-03
+"ID- 1330","Jane Doe",40,Female,Unknown,23,NULL,Unknown,No,Unknown,"aspirin,metformin",0,E11.9,"Follow up soon",1,120,80,2021-03-08
+"ID- 1332","Lee Sara",25,Male,"Los Angeles",23,80,High,Unknown,Unknown,"Lisinopril / Metformin",14,Unknown,"Follow up soon",Unknown,120,80,2020-06-10
+"ID- 1333","John Doe",25,Female,"New York",23,0,High,No,Unknown,Unknown,14,Unknown,"Patient feeling fine ðŸ™‚",Unknown,NULL,NULL,2024-03-25
+"ID- 1334","John Doe",25,Female,Unknown,23,80,normal,No,EX-smoker,"aspirin,metformin",0,A00,"Follow up soon",1,120,80,2021-12-12
+"ID- 1336","Smith Alice",20,Female,"New York",0,NULL,Unknown,Yes,Unknown,None,30,Unknown,,Unknown,120,80,2021-04-28
+"ID- 1338","Smith Alice",61,Female,"New York",22,80,Unknown,Unknown,Unknown,Unknown,0,Unknown,"Follow up soon",Unknown,120,80,2024-09-08
+"ID- 1339","John Doe",25,Female,Chicago,23,80,normal,No,Yes,Unknown,14,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2024-11-16
+"ID- 1340","Lee Sara",5,Male,"New York",22,53,High,No,Former,None,14,B20,"Follow up soon",Unknown,127,82,2020-04-09
+"ID- 1341","John Doe",25,Female,Boston,22,NULL,normal,Yes,EX-smoker,"Aspirin; Metformin",14,B20,n/a,Unknown,144,88,2020-03-10
+"ID- 1342","Michael Brown",64,Female,Unknown,19,0,High,No,No,"Lisinopril / Metformin",14,E11.9,"Patient feeling fine ðŸ™‚",0,NULL,NULL,2024-08-09
+"ID- 1344","Jane Doe",5,Female,"New York",22,105,Normal,Yes,Yes,None,14,E11.9,"Follow up soon",1,120,80,2021-05-07
+"ID- 1345","Michael Brown",25,Female,"New York",21,50,normal,Unknown,Unknown,"Lisinopril / Metformin",14,E11.9,n/a,Unknown,120,80,2021-01-29
+"ID- 1348","Jane Doe",5,Female,"Los Angeles",20,NULL,high,No,Former,None,30,Unknown,n/a,Unknown,93,82,2024-04-03
+"ID- 1351","Lee Sara",2,Male,"New York",16,81,Normal,Yes,Unknown,"Lisinopril / Metformin",0,A00,n/a,0,120,80,2024-09-08
+"ID- 1352","John Doe",86,Female,"New York",0,NULL,high,Yes,EX-smoker,None,14,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2020-06-09
+"ID- 1353","Jane Doe",38,Female,Unknown,23,50,normal,Unknown,Unknown,None,0,Unknown,"BP high, needs recheck",Unknown,146,92,2023-07-27
+"ID- 1357","John Doe",25,Female,"New York",30,50,Normal,No,Unknown,Unknown,14,E11.9,"Follow up soon",Unknown,120,80,2021-01-03
+"ID- 1358","Michael Brown",68,Female,"Los Angeles",26,0,Normal,Unknown,Former,None,14,B20,n/a,Unknown,NULL,NULL,2023-05-11
+"ID- 1359","Lee Sara",5,Male,"Los Angeles",24,50,High,Unknown,Unknown,"Aspirin; Metformin",14,B20,"Follow up soon",0,120,80,2024-02-13
+"ID- 1360","Smith Alice",25,Female,"Los Angeles",17,NULL,normal,Yes,Unknown,None,0,B20,"Patient feeling fine ðŸ™‚",1,120,80,2021-05-24
+"ID- 1361","Lee Sara",25,Male,chicago,23,NULL,normal,Unknown,Yes,None,14,B20,"Follow up soon",1,120,80,2024-11-28
+"ID- 1362","Michael Brown",25,Female,chicago,15,50,high,No,EX-smoker,"Aspirin; Metformin",0,B20,"Patient feeling fine ðŸ™‚",1,143,72,2023-10-29
+"ID- 1363","Smith Alice",25,Female,"New York",0,80,normal,Unknown,No,"Lisinopril / Metformin",14,Unknown,n/a,Unknown,120,80,2020-04-10
+"ID- 1364","John Doe",25,Female,"New York",0,80,Normal,Yes,Former,"aspirin,metformin",0,Unknown,n/a,1,120,80,2021-04-29
+"ID- 1367","Smith Alice",25,Female,"New York",28,54,high,Yes,EX-smoker,None,14,A00,n/a,Unknown,115,70,2024-04-19
+"ID- 1368","Michael Brown",25,Female,"New York",0,NULL,Unknown,No,Former,"Aspirin; Metformin",30,A00,"Patient feeling fine ðŸ™‚",1,120,80,2021-09-09
+"ID- 1370","Jane Doe",75,Female,Boston,23,50,High,No,Yes,"Lisinopril / Metformin",14,unknown,"BP high, needs recheck",1,120,80,2022-03-17
+"ID- 1371","Jane Doe",25,Female,"Los Angeles",0,50,Normal,Unknown,Former,None,30,A00,"Follow up soon",0,120,80,2021-12-08
+"ID- 1372","Smith Alice",25,Female,"Los Angeles",18,80,High,No,Yes,Unknown,30,E11.9,n/a,1,119,65,2022-09-08
+"ID- 1374","John Doe",40,Female,"Los Angeles",23,111,normal,Yes,Unknown,"aspirin,metformin",14,E11.9,n/a,1,120,80,2021-06-30
+"ID- 1375","Michael Brown",5,Female,"Los Angeles",31,50,High,Yes,Unknown,None,14,unknown,"Follow up soon",Unknown,120,80,2024-09-22
+"ID- 1377","John Doe",64,Female,"Los Angeles",0,0,Unknown,Yes,EX-smoker,Unknown,0,E11.9,,Unknown,NULL,NULL,2023-08-05
+"ID- 1378","Smith Alice",10,Female,"Los Angeles",0,50,Normal,Unknown,Unknown,"Lisinopril / Metformin",30,Unknown,n/a,1,120,80,2020-06-27
+"ID- 1379","John Doe",5,Female,"New York",24,78,normal,Yes,Yes,"Lisinopril / Metformin",14,I10,n/a,Unknown,120,80,2023-08-08
+"ID- 1380","Jane Doe",25,Female,chicago,23,NULL,High,Unknown,Unknown,Unknown,14,unknown,"Patient feeling fine ðŸ™‚",0,120,80,2022-09-05
+"ID- 1381","John Doe",25,Female,"New York",23,50,Unknown,Yes,Unknown,None,0,Unknown,"Follow up soon",1,120,80,2024-07-17
+"ID- 1383","Smith Alice",73,Female,"Los Angeles",22,NULL,normal,Yes,Yes,Unknown,0,I10,n/a,Unknown,120,80,2020-03-19
+"ID- 1385","Michael Brown",5,Female,Unknown,17,58,Normal,Yes,Former,"Lisinopril / Metformin",14,A00,n/a,Unknown,120,80,2023-09-08
+"ID- 1386","John Doe",5,Female,"New York",23,NULL,High,No,EX-smoker,None,14,B20,"Follow up soon",0,157,85,2024-05-28
+"ID- 1387","Jane Doe",25,Female,Boston,23,NULL,normal,Yes,Yes,None,30,A00,n/a,Unknown,120,80,2023-03-28
+"ID- 1388","John Doe",31,Female,chicago,29,57,High,No,EX-smoker,Unknown,0,I10,"Patient feeling fine ðŸ™‚",Unknown,120,80,2023-12-09
+"ID- 1390","Lee Sara",5,Male,Unknown,23,50,high,Unknown,EX-smoker,"aspirin,metformin",0,I10,,Unknown,120,80,2021-07-12
+"ID- 1391","Jane Doe",25,Female,"Los Angeles",0,0,Unknown,Unknown,Unknown,"Lisinopril / Metformin",0,Unknown,"Patient feeling fine ðŸ™‚",1,NULL,NULL,2024-07-24
+"ID- 1392","Smith Alice",5,Female,"New York",0,0,High,Yes,Unknown,"Aspirin; Metformin",14,unknown,,Unknown,NULL,NULL,2024-07-26
+"ID- 1393","John Doe",5,Female,chicago,23,80,Unknown,Unknown,EX-smoker,Unknown,14,A00,"Follow up soon",0,108,98,2021-04-13
+"ID- 1394","Lee Sara",56,Male,"New York",16,76,high,Unknown,Former,"aspirin,metformin",14,Unknown,"BP high, needs recheck",Unknown,151,66,2021-05-19
+"ID- 1396","Smith Alice",5,Female,Boston,23,107,normal,No,Yes,Unknown,14,Unknown,"Follow up soon",Unknown,120,80,2021-01-01
+"ID- 1397","Jane Doe",25,Female,Unknown,34,67,high,No,Yes,Unknown,0,unknown,,Unknown,120,80,2022-08-20
+"ID- 1398","John Doe",5,Female,"New York",22,120,Normal,Unknown,No,"aspirin,metformin",0,B20,"BP high, needs recheck",0,152,87,2020-06-19
+"ID- 1399","Michael Brown",5,Female,"New York",22,NULL,high,Yes,Unknown,None,0,A00,"BP high, needs recheck",Unknown,120,80,2022-06-02
+"ID- 1400","Jane Doe",5,Female,"New York",23,117,high,No,Yes,None,14,unknown,"BP high, needs recheck",1,148,94,2021-07-19
+"ID- 1401","Lee Sara",94,Male,"New York",22,NULL,high,Yes,EX-smoker,"aspirin,metformin",0,unknown,n/a,0,120,80,2020-06-15
+"ID- 1403","Jane Doe",98,Female,Chicago,23,97,Unknown,No,Unknown,"Aspirin; Metformin",0,I10,"BP high, needs recheck",0,120,80,2025-02-04
+"ID- 1409","Michael Brown",5,Female,chicago,0,80,Unknown,No,EX-smoker,"Aspirin; Metformin",0,A00,,0,120,80,2025-07-27
+"ID- 1410","Lee Sara",33,Male,"New York",22,50,high,Yes,Former,"Aspirin; Metformin",0,unknown,"BP high, needs recheck",0,120,80,2022-07-04
+"ID- 1411","John Doe",25,Female,Chicago,23,102,Normal,No,Yes,"Lisinopril / Metformin",14,unknown,n/a,0,142,77,2023-10-11
+"ID- 1412","Smith Alice",5,Female,"Los Angeles",0,80,high,Unknown,Yes,"Aspirin; Metformin",0,unknown,"Patient feeling fine ðŸ™‚",Unknown,107,79,2021-09-10
+"ID- 1413","Jane Doe",5,Female,"New York",0,105,Normal,Unknown,EX-smoker,"aspirin,metformin",0,I10,,0,97,64,2022-11-06
+"ID- 1415","Lee Sara",25,Male,Unknown,23,80,Normal,Yes,Yes,"Aspirin; Metformin",14,E11.9,"Follow up soon",1,120,80,2021-09-07
+"ID- 1416","Lee Sara",46,Male,"New York",0,NULL,Unknown,Unknown,Yes,"aspirin,metformin",14,Unknown,"Patient feeling fine ðŸ™‚",0,120,80,2021-03-25
+"ID- 1418","Michael Brown",5,Female,"Los Angeles",22,NULL,normal,Yes,EX-smoker,"aspirin,metformin",14,unknown,"BP high, needs recheck",Unknown,120,80,2020-08-03
+"ID- 1419","Lee Sara",81,Male,Boston,22,50,high,Yes,No,None,14,unknown,,Unknown,120,80,2023-07-05
+"ID- 1420","Michael Brown",25,Female,"New York",23,0,High,Yes,EX-smoker,"Lisinopril / Metformin",30,B20,"BP high, needs recheck",1,NULL,NULL,2022-12-27
+"ID- 1421","Michael Brown",73,Female,"New York",22,0,Normal,No,No,"aspirin,metformin",14,B20,"Follow up soon",1,NULL,NULL,2022-03-29
+"ID- 1422","John Doe",5,Female,chicago,22,80,Unknown,No,No,None,30,E11.9,"BP high, needs recheck",0,120,80,2025-01-21
+"ID- 1423","Jane Doe",25,Female,Boston,0,102,high,Unknown,Unknown,"Aspirin; Metformin",14,unknown,"Follow up soon",0,120,80,2024-04-17
+"ID- 1424","John Doe",25,Female,Unknown,23,NULL,high,Unknown,Unknown,"Lisinopril / Metformin",30,I10,"Patient feeling fine ðŸ™‚",1,120,80,2023-07-20
+"ID- 1428","Lee Sara",25,Male,"Los Angeles",0,0,High,Unknown,EX-smoker,None,14,A00,"Follow up soon",Unknown,NULL,NULL,2021-12-13
